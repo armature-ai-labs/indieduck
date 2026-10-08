@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Trunk",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 42534.88811613242,
+    "mesh_closed": true,
+    "mesh_facets": 6320,
+    "mesh_volume_delta_pct": 0.008195090046786762
+  },
+  {
+    "name": "Neck",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 10345.34663212877,
+    "mesh_closed": true,
+    "mesh_facets": 1072,
+    "mesh_volume_delta_pct": 0.0017939895136334402
+  },
+  {
+    "name": "HeadPitch",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4886.9673124282335,
+    "mesh_closed": true,
+    "mesh_facets": 2076,
+    "mesh_volume_delta_pct": 0.05086615917083604
+  },
+  {
+    "name": "HeadYaw",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 10237.076565360125,
+    "mesh_closed": true,
+    "mesh_facets": 1584,
+    "mesh_volume_delta_pct": 0.012922133520535332
+  },
+  {
+    "name": "HeadCore",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 14552.780575702513,
+    "mesh_closed": true,
+    "mesh_facets": 1736,
+    "mesh_volume_delta_pct": 0.004082053336284167
+  },
+  {
+    "name": "Yaw_L",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 8603.735972278497,
+    "mesh_closed": true,
+    "mesh_facets": 1568,
+    "mesh_volume_delta_pct": 0.015440744006831823
+  },
+  {
+    "name": "HipL_L",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5774.967312428231,
+    "mesh_closed": true,
+    "mesh_facets": 2084,
+    "mesh_volume_delta_pct": 0.04219064859944143
+  },
+  {
+    "name": "Thigh_L",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 12156.708924587532,
+    "mesh_closed": true,
+    "mesh_facets": 1116,
+    "mesh_volume_delta_pct": 0.0016874461150654105
+  },
+  {
+    "name": "Shank_L",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 9038.51747161649,
+    "mesh_closed": true,
+    "mesh_facets": 2128,
+    "mesh_volume_delta_pct": 0.011788838151354045
+  },
+  {
+    "name": "RoundedFoot_L",
+    "type": "Part::Fuse",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 43101.023569601224,
+    "mesh_closed": true,
+    "mesh_facets": 6892,
+    "mesh_volume_delta_pct": 0.02629209798909887
+  },
+  {
+    "name": "SoftHeadShell",
+    "type": "Part::Cut",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 64612.453722959515,
+    "mesh_closed": true,
+    "mesh_facets": 9376,
+    "mesh_volume_delta_pct": 0.06745236668519919
+  },
+  {
+    "name": "HeadCap",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7486.577136624181,
+    "mesh_closed": true,
+    "mesh_facets": 792,
+    "mesh_volume_delta_pct": 0.005954825368571373
+  },
+  {
+    "name": "BodyFront",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27206.2722809128,
+    "mesh_closed": true,
+    "mesh_facets": 1020,
+    "mesh_volume_delta_pct": 0.0006359988807520731
+  },
+  {
+    "name": "BodyBack",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 21609.079605535342,
+    "mesh_closed": true,
+    "mesh_facets": 1096,
+    "mesh_volume_delta_pct": 3.3966788387623156e-05
+  },
+  {
+    "name": "RoundedSole_L",
+    "type": "Part::Fuse",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 42517.062538477905,
+    "mesh_closed": true,
+    "mesh_facets": 4996,
+    "mesh_volume_delta_pct": 0.01198057479463724
+  },
+  {
+    "name": "ThighPlate_L",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 6286.142924587527,
+    "mesh_closed": true,
+    "mesh_facets": 1060,
+    "mesh_volume_delta_pct": 0.0032024994680857075
+  },
+  {
+    "name": "O2_HeadBase",
+    "type": "Part::Fuse",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 29893.51303802526,
+    "mesh_closed": true,
+    "mesh_facets": 2910,
+    "mesh_volume_delta_pct": 0.04418467146520421
+  },
+  {
+    "name": "O2_Jaw",
+    "type": "Part::Fuse",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 11817.009549161497,
+    "mesh_closed": true,
+    "mesh_facets": 1774,
+    "mesh_volume_delta_pct": 0.07558108609746565
+  },
+  {
+    "name": "O2_UpperLip",
+    "type": "Part::Compound",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1120.8276906914987,
+    "mesh_closed": true,
+    "mesh_facets": 768,
+    "mesh_volume_delta_pct": 0.006181321654230574
+  },
+  {
+    "name": "O2_JawEdge",
+    "type": "Part::Compound",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1562.1502885622415,
+    "mesh_closed": true,
+    "mesh_facets": 578,
+    "mesh_volume_delta_pct": 0.010626097800026175
+  },
+  {
+    "name": "MouthCrank",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 417.81218797335777,
+    "mesh_closed": true,
+    "mesh_facets": 1196,
+    "mesh_volume_delta_pct": 0.34319788502431775
+  },
+  {
+    "name": "MouthRod",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 198.03464661923226,
+    "mesh_closed": true,
+    "mesh_facets": 3218,
+    "mesh_volume_delta_pct": 1.1713201721835682
+  },
+  {
+    "name": "CrankBallStud",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 45.54503513001262,
+    "mesh_closed": true,
+    "mesh_facets": 908,
+    "mesh_volume_delta_pct": 1.274521570458273
+  },
+  {
+    "name": "JawBallStud",
+    "type": "PartDesign::Body",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 45.54503513001261,
+    "mesh_closed": true,
+    "mesh_facets": 908,
+    "mesh_volume_delta_pct": 0.8082904594603992
+  },
+  {
+    "name": "Yaw_R",
+    "type": "Part::Mirroring",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 8603.735972278497,
+    "mesh_closed": true,
+    "mesh_facets": 1568,
+    "mesh_volume_delta_pct": 0.0150207774641994
+  },
+  {
+    "name": "HipL_R",
+    "type": "Part::Mirroring",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5774.967312428229,
+    "mesh_closed": true,
+    "mesh_facets": 2084,
+    "mesh_volume_delta_pct": 0.042672591262422795
+  },
+  {
+    "name": "Thigh_R",
+    "type": "Part::Mirroring",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 12156.708924587532,
+    "mesh_closed": true,
+    "mesh_facets": 1116,
+    "mesh_volume_delta_pct": 0.001783843504134242
+  },
+  {
+    "name": "Shank_R",
+    "type": "Part::Mirroring",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 9038.517471616487,
+    "mesh_closed": true,
+    "mesh_facets": 2128,
+    "mesh_volume_delta_pct": 0.011594357971906685
+  },
+  {
+    "name": "RoundedFoot_R",
+    "type": "Part::Mirroring",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 43101.023569601224,
+    "mesh_closed": true,
+    "mesh_facets": 6892,
+    "mesh_volume_delta_pct": 0.02645523216591594
+  },
+  {
+    "name": "RoundedSole_R",
+    "type": "Part::Mirroring",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 42517.062538477905,
+    "mesh_closed": true,
+    "mesh_facets": 4996,
+    "mesh_volume_delta_pct": 0.012063262186241925
+  },
+  {
+    "name": "ThighPlate_R",
+    "type": "Part::Mirroring",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 6286.142924587526,
+    "mesh_closed": true,
+    "mesh_facets": 1060,
+    "mesh_volume_delta_pct": 0.003062683008222648
+  },
+  {
+    "name": "O2_EyeL",
+    "type": "PartDesign::Feature",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 648.613219260149,
+    "mesh_closed": true,
+    "mesh_facets": 212,
+    "mesh_volume_delta_pct": 0.24618690395165657
+  },
+  {
+    "name": "O2_EyeR",
+    "type": "PartDesign::Feature",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 648.613219260149,
+    "mesh_closed": true,
+    "mesh_facets": 212,
+    "mesh_volume_delta_pct": 0.26847943220465476
+  }
+]

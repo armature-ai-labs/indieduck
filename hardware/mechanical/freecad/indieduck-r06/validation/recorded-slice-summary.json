@@ -1,0 +1,92 @@
+{
+  "record_date": "2026-10-08",
+  "status": "Normalized derivative of recorded local checks; no new slice or physical print",
+  "bambu_studio_version": "02.08.02.61",
+  "source_gui_record_sha256": "2067e717487e3dfd4d0b27f20f67cb5c7a92fb844a42fc590c922be96153572e",
+  "projects": [
+    {
+      "name": "PLA fit coupons",
+      "source_audit_sha256": "0c76783c47c2dab7d2fd882b380713bd1277ae1615985d74f1c0f6a704522014",
+      "local_3mf_sha256": "bcd881e754febfe0095f2103be466d74fa1a19fa5a40a4e06cbd3eef74915f78",
+      "local_3mf_included": false,
+      "recorded_checks": {
+        "machine_start_gcode": true,
+        "machine_end_gcode": true,
+        "layer_change_gcode": true,
+        "change_filament_gcode": true,
+        "time_lapse_gcode": true,
+        "wrapping_detection_gcode": true,
+        "gcode_md5": true,
+        "named_custom_process": true,
+        "gui_override_keys": true,
+        "gui_base_preset": true,
+        "printer": true,
+        "mesh_repairs_zero": true,
+        "fit_process": true,
+        "model_and_support_paths_in_bed": true,
+        "all_arc_segments_rendered": true
+      },
+      "layer_count": 53,
+      "maximum_layer_z_mm": 10.6,
+      "estimated_material_g": 30.4,
+      "estimated_time_including_preparation": "1 h 05 min",
+      "physical_result": "unverified"
+    },
+    {
+      "name": "PLA rigid left leg",
+      "source_audit_sha256": "7b1c1576065d5426bbb594f222c79e172ef00d4d1174e6c015db013ae9c0ec56",
+      "local_3mf_sha256": "b69a0c692f98ebad6889724e25c809e1d621c215c7f2b1d784f83a7bcc063d5e",
+      "local_3mf_included": false,
+      "recorded_checks": {
+        "machine_start_gcode": true,
+        "machine_end_gcode": true,
+        "layer_change_gcode": true,
+        "change_filament_gcode": true,
+        "time_lapse_gcode": true,
+        "wrapping_detection_gcode": true,
+        "gcode_md5": true,
+        "named_custom_process": true,
+        "gui_override_keys": true,
+        "gui_base_preset": true,
+        "printer": true,
+        "mesh_repairs_zero": true,
+        "fit_process": true,
+        "model_and_support_paths_in_bed": true,
+        "all_arc_segments_rendered": true
+      },
+      "layer_count": 187,
+      "maximum_layer_z_mm": 37.4,
+      "estimated_material_g": 76.38,
+      "estimated_time_including_preparation": "2 h 47 min",
+      "physical_result": "unverified"
+    },
+    {
+      "name": "TPU 95A left sole",
+      "source_audit_sha256": "142768f7dd98497bb88f285c0e7b3dfffee7692a1bfb6e7f6c40d04075bc7164",
+      "local_3mf_sha256": "d3a68265a2ce402a1e4306c091c1e2f6a27752737712caca415c2a1b1bc1a291",
+      "local_3mf_included": false,
+      "recorded_checks": {
+        "machine_start_gcode": true,
+        "machine_end_gcode": true,
+        "layer_change_gcode": true,
+        "change_filament_gcode": true,
+        "time_lapse_gcode": true,
+        "wrapping_detection_gcode": true,
+        "gcode_md5": true,
+        "named_custom_process": true,
+        "gui_override_keys": true,
+        "gui_base_preset": true,
+        "printer": true,
+        "mesh_repairs_zero": true,
+        "fit_process": true,
+        "model_and_support_paths_in_bed": true,
+        "all_arc_segments_rendered": true
+      },
+      "layer_count": 65,
+      "maximum_layer_z_mm": 13.0,
+      "estimated_material_g": 21.12,
+      "estimated_time_including_preparation": "1 h 32 min",
+      "physical_result": "unverified"
+    }
+  ]
+}

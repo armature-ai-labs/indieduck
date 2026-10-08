@@ -1,0 +1,148 @@
+{
+  "external_dependencies": [],
+  "selected_source_comparison": {
+    "Trunk": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "Neck": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "HeadPitch": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "HeadYaw": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "HeadCore": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "Yaw_L": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "HipL_L": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "Thigh_L": {
+      "removed_mm3": 5.814000000000781,
+      "added_mm3": 0.0
+    },
+    "Shank_L": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "RoundedFoot_L": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "SoftHeadShell": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "HeadCap": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "BodyFront": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "BodyBack": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "RoundedSole_L": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "ThighPlate_L": {
+      "symmetric_difference_mm3": 1571.535731147074
+    },
+    "O2_HeadBase": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "O2_Jaw": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "O2_UpperLip": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "O2_JawEdge": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "MouthCrank": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "MouthRod": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "CrankBallStud": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "JawBallStud": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "Yaw_R": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "HipL_R": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "Thigh_R": {
+      "removed_mm3": 5.8139999999995835,
+      "added_mm3": 0.0
+    },
+    "Shank_R": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "RoundedFoot_R": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "RoundedSole_R": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "ThighPlate_R": {
+      "symmetric_difference_mm3": 1571.535731146733
+    },
+    "O2_EyeL": {
+      "symmetric_difference_mm3": 0.0
+    },
+    "O2_EyeR": {
+      "symmetric_difference_mm3": 0.0
+    }
+  },
+  "neutral_candidate_pairs": 178,
+  "neutral_hits_over_0p5mm3": [],
+  "bed": [
+    {
+      "name": "Yaw_L",
+      "within256mm": true,
+      "zmin": 1.7756386235972517e-14,
+      "height": 27.5
+    },
+    {
+      "name": "HipL_L",
+      "within256mm": true,
+      "zmin": 7.105427357601002e-15,
+      "height": 36.50000000000003
+    },
+    {
+      "name": "Thigh_L",
+      "within256mm": true,
+      "zmin": 4.973799150320701e-14,
+      "height": 24.80000000000002
+    },
+    {
+      "name": "Shank_L",
+      "within256mm": true,
+      "zmin": 2.842170943040401e-14,
+      "height": 25.00000000000008
+    },
+    {
+      "name": "ThighPlate_L",
+      "within256mm": true,
+      "zmin": 1.383017906737011e-14,
+      "height": 2.0000000000000484
+    },
+    {
+      "name": "RoundedFoot_L",
+      "within256mm": true,
+      "zmin": -1.304224496836878e-14,
+      "height": 37.50000009999999
+    }
+  ],
+  "plate_part_intersections": [],
+  "scope": "Saved CAD comparison and nominal geometry only. Physical print/gait untested."
+}

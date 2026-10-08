@@ -1,0 +1,198 @@
+{
+  "revision": "IndieDuck R06 fit coupons, 08-10-2026",
+  "units": "mm",
+  "print_compensation_applied": false,
+  "purpose": "Independent removable first-fit tests only; no final robot interfaces changed",
+  "native_history": "Spreadsheet expressions, named Part primitives and chained Part::Cut booleans; no sketch constraints claimed",
+  "print_request": {
+    "printer": "Bambu Lab P2S",
+    "nozzle_mm": 0.4,
+    "layer_height_mm": 0.2,
+    "material": "PLA",
+    "orientation": "Flat base Z=0 on bed; pocket/hole axes vertical",
+    "note": "Slicer settings requested, not verified by this coupon generator"
+  },
+  "physical_validation": "Not printed or physically tested",
+  "parts": [
+    {
+      "slug": "IndieDuck_R06_Hole_Fit_Coupon",
+      "native_file": "IndieDuck_R06_Hole_Fit_Coupon.FCStd",
+      "step_file": "IndieDuck_R06_Hole_Fit_Coupon.step",
+      "stl_file": "IndieDuck_R06_Hole_Fit_Coupon.stl",
+      "final_feature": "Locator3_ThroughHole",
+      "native_object_count": 46,
+      "bounding_box_mm": [
+        80.0,
+        45.0,
+        4.0
+      ],
+      "cad_volume_mm3": 14052.944704518693,
+      "mesh_volume_mm3": 14053.1220703125,
+      "mesh_facets": 3272,
+      "mesh_closed": true,
+      "cad_valid": true,
+      "solid_count": 1,
+      "step_roundtrip_valid": true,
+      "nominal_dimensions": {
+        "width_mm": 80,
+        "height_mm": 45,
+        "thickness_mm": 4,
+        "holes": [
+          {
+            "row": 1,
+            "column": 1,
+            "use": "M2 pilot",
+            "x_mm": 20,
+            "y_mm": 34,
+            "diameter_mm": 1.6,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "use": "M2 pilot",
+            "x_mm": 40,
+            "y_mm": 34,
+            "diameter_mm": 1.7,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "use": "M2 pilot",
+            "x_mm": 60,
+            "y_mm": 34,
+            "diameter_mm": 1.8,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "use": "M2 clearance",
+            "x_mm": 20,
+            "y_mm": 22,
+            "diameter_mm": 2.2,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "use": "M2 clearance",
+            "x_mm": 40,
+            "y_mm": 22,
+            "diameter_mm": 2.3,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "use": "M2 clearance",
+            "x_mm": 60,
+            "y_mm": 22,
+            "diameter_mm": 2.4,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "use": "Locator socket",
+            "x_mm": 20,
+            "y_mm": 10,
+            "diameter_mm": 3.0,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "use": "Locator socket",
+            "x_mm": 40,
+            "y_mm": 10,
+            "diameter_mm": 3.1,
+            "through_depth_mm": 4
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "use": "Locator socket",
+            "x_mm": 60,
+            "y_mm": 10,
+            "diameter_mm": 3.2,
+            "through_depth_mm": 4
+          }
+        ]
+      },
+      "editability_test": {
+        "parameter": "Pilot1",
+        "original_mm": 1.6,
+        "changed_mm": 1.6500000000000001,
+        "volume_after_change_mm3": 14052.434195712485,
+        "restored_volume_mm3": 14052.944704518693,
+        "passed": true
+      },
+      "native_reopen_recompute_passed": true
+    },
+    {
+      "slug": "IndieDuck_R06_Bearing_Fit_Coupon",
+      "native_file": "IndieDuck_R06_Bearing_Fit_Coupon.FCStd",
+      "step_file": "IndieDuck_R06_Bearing_Fit_Coupon.step",
+      "stl_file": "IndieDuck_R06_Bearing_Fit_Coupon.stl",
+      "final_feature": "Seat3_CenterClearance",
+      "native_object_count": 28,
+      "bounding_box_mm": [
+        80.0,
+        28.0,
+        4.0
+      ],
+      "cad_volume_mm3": 6923.545625670653,
+      "mesh_volume_mm3": 6925.27587890625,
+      "mesh_facets": 2144,
+      "mesh_closed": true,
+      "cad_valid": true,
+      "solid_count": 1,
+      "step_roundtrip_valid": true,
+      "nominal_dimensions": {
+        "width_mm": 80,
+        "height_mm": 28,
+        "thickness_mm": 4,
+        "seats": [
+          {
+            "column": 1,
+            "x_mm": 15,
+            "y_mm": 14,
+            "seat_diameter_mm": 15.0,
+            "pocket_depth_mm": 3,
+            "remaining_floor_mm": 1,
+            "center_through_diameter_mm": 11
+          },
+          {
+            "column": 2,
+            "x_mm": 40,
+            "y_mm": 14,
+            "seat_diameter_mm": 15.1,
+            "pocket_depth_mm": 3,
+            "remaining_floor_mm": 1,
+            "center_through_diameter_mm": 11
+          },
+          {
+            "column": 3,
+            "x_mm": 65,
+            "y_mm": 14,
+            "seat_diameter_mm": 15.2,
+            "pocket_depth_mm": 3,
+            "remaining_floor_mm": 1,
+            "center_through_diameter_mm": 11
+          }
+        ]
+      },
+      "editability_test": {
+        "parameter": "Seat1",
+        "original_mm": 15.0,
+        "changed_mm": 15.05,
+        "volume_after_change_mm3": 6920.0054434491385,
+        "restored_volume_mm3": 6923.545625670653,
+        "passed": true
+      },
+      "native_reopen_recompute_passed": true
+    }
+  ]
+}

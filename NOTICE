@@ -1,0 +1,46 @@
+IndieDuck R06
+IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics’ MicroDuck.
+
+Copyright 2026 Armature AI Labs, for IndieDuck engineering modifications.
+Licensed under the Apache License, Version 2.0, subject to preserved upstream notices.
+
+Open Duck Mini: Antoine Pirrone and contributors.
+Repository: https://github.com/apirrone/Open_Duck_Mini
+Pinned commit: b23317a485b3cec7d8417f352478778b3475173c
+The upstream Apache-2.0 text is retained verbatim in
+hardware/mechanical/freecad/indieduck-r06/provenance/upstream-notices/open-duck-mini/LICENSE.
+
+Jaime's V2 BD-X Style Body Covers Mod:
+Jaime Machuca (jmachuca77). The upstream mod targets the Disney BD-X visual
+style. The contributor's usage and attribution text is retained verbatim in
+hardware/mechanical/freecad/indieduck-r06/provenance/upstream-notices/jaime-bdx/README.md.
+
+Justin's Park Head Mod:
+Justin Andrews (Codezombie23). The upstream mod describes a BD-X-style head.
+The contributor's author credit is retained verbatim in
+hardware/mechanical/freecad/indieduck-r06/provenance/upstream-notices/justin-park-head/README.md.
+
+IndieDuck changes: independently sketched and parameterised shells and equal
+eyes, resized and fitted to IndieDuck's independently authored HD-1910
+structure, with its own service access, wall and attachment requirements.
+These parts are adaptations, not identical upstream geometry. Credit for
+original Open Duck Mini work remains with its contributors.
+
+MicroDuck: Pollen Robotics, acknowledged as inspiration. Actual reused
+runtime/RL source must retain its own Apache notices in the software tree.
+This mechanical package does not include MicroDuck mesh geometry.
+
+Board envelope facts: Radxa official ZERO 3W V1.11 mechanical sources and
+Pollen Robotics RPI Robot HAT D1 KiCad/production sources. Source URLs,
+measurements and hashes are recorded in hardware/mechanical/freecad/indieduck-r06/provenance/board-interfaces.json. Original
+Radxa CAD and the HAT STEP's embedded Raspberry Pi model are not included.
+
+No sponsorship, endorsement or trademark rights are asserted by these credits.
+The XGO pending-rights reconstruction is excluded from this package.
+
+R06 engineering changes, 08-10-2026: selected soft head and oval eyes,
+tapered articulated bill, Rounded web feet, corrected thigh-divider contact,
+2 mm thigh covers, consolidated native dependencies, fit coupons and an
+original non-rolling skate interface fixture. Earlier source mapping is
+retained as provenance history. Bambu slicer profiles, manufacturer G-code
+templates and configured 3MF jobs are not distributed in this repository.

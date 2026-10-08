@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.FCBak
+*.FCStd1
+*.3mf
+*.gcode
+*.gcode.3mf
+*.brep

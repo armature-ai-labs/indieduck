@@ -1,0 +1,205 @@
+{
+  "native_reopen_recompute": true,
+  "assembly_links_local_after_folder_move": 85,
+  "per_part_step_roundtrips": [
+    {
+      "name": "Trunk",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 8.552929061806838e-14
+    },
+    {
+      "name": "Neck",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 7.033072813226991e-14
+    },
+    {
+      "name": "HeadPitch",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 7.444246246214559e-14
+    },
+    {
+      "name": "HeadYaw",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 1.0661184715766755e-13
+    },
+    {
+      "name": "HeadCore",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 2.124873641804828e-13
+    },
+    {
+      "name": "Yaw_L",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 6.342556568704677e-14
+    },
+    {
+      "name": "HipL_L",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 9.44934908790514e-14
+    },
+    {
+      "name": "Thigh_L",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 2.9925688191264696e-14
+    },
+    {
+      "name": "Shank_L",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 2.897980503253459e-12
+    },
+    {
+      "name": "RoundedFoot_L",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 5.115417434939261e-07
+    },
+    {
+      "name": "SoftHeadShell",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 3.820229227315926e-05
+    },
+    {
+      "name": "HeadCap",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 3.109974550517445e-12
+    },
+    {
+      "name": "BodyFront",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 1.081202345611923e-05
+    },
+    {
+      "name": "BodyBack",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 0.000768665284302881
+    },
+    {
+      "name": "RoundedSole_L",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 4.396152554165616e-08
+    },
+    {
+      "name": "ThighPlate_L",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 2.8936494530391413e-14
+    },
+    {
+      "name": "O2_HeadBase",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 3.6205135667162135e-11
+    },
+    {
+      "name": "O2_Jaw",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 2.8307682237239038e-11
+    },
+    {
+      "name": "O2_UpperLip",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 5.789689843535432e-11
+    },
+    {
+      "name": "O2_JawEdge",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 1.8485069581792633e-12
+    },
+    {
+      "name": "MouthCrank",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 8.16301015102499e-14
+    },
+    {
+      "name": "MouthRod",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 3.971958453995993e-06
+    },
+    {
+      "name": "CrankBallStud",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 3.943903064019956e-11
+    },
+    {
+      "name": "JawBallStud",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 4.8986770652779534e-12
+    },
+    {
+      "name": "Yaw_R",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 1.0570927614507793e-13
+    },
+    {
+      "name": "HipL_R",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 3.1497830293017137e-14
+    },
+    {
+      "name": "Thigh_R",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 2.9925688191264696e-14
+    },
+    {
+      "name": "Shank_R",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 5.031216151481701e-13
+    },
+    {
+      "name": "RoundedFoot_R",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 0.000463948734556484
+    },
+    {
+      "name": "RoundedSole_R",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 4.84319552339958e-05
+    },
+    {
+      "name": "ThighPlate_R",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 1.446824726519571e-14
+    },
+    {
+      "name": "O2_EyeL",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 7.011071273033549e-14
+    },
+    {
+      "name": "O2_EyeR",
+      "valid": true,
+      "solids": 1,
+      "volume_delta_percent": 3.5055356365167747e-14
+    }
+  ],
+  "scope": "CAD portability and geometry only; no physical validation."
+}

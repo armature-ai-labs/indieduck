@@ -1,0 +1,25 @@
+{
+  "record_date": "2026-10-08",
+  "scope": "Plain settings recorded from local R06 preparation, not vendor profiles or ready-to-print jobs; physically unverified",
+  "printer": "Bambu Lab P2S",
+  "ams": "AMS 2 Pro for PLA; TPU 95A external feed bypasses AMS and filament buffer",
+  "nozzle_diameter_mm": 0.4,
+  "nozzle_flow": "standard",
+  "build_plate": "Textured PEI",
+  "layer_height_mm": 0.2,
+  "wall_loops": 3,
+  "top_shell_layers": 5,
+  "bottom_shell_layers": 5,
+  "sparse_infill_density_percent": 20,
+  "sparse_infill_pattern": "gyroid",
+  "pla_support": {
+    "type": "automatic tree",
+    "build_plate_only": true,
+    "threshold_angle_deg": 30
+  },
+  "tpu_support": "none",
+  "cad_print_compensation_applied": false,
+  "temperature_flow_and_cooling": "Select for actual filament and installed printer/material profile; record values in the physical test record",
+  "settings_verified_in_local_preview": true,
+  "physical_print_verified": false
+}
