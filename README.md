@@ -1,47 +1,48 @@
 # IndieDuck
 
-An open robot prototype for hands-on robotics, mechanical iteration and reinforcement-learning research.
-
 **IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics’ MicroDuck.**
 
-![IndieDuck R06 FreeCAD assembly](hardware/mechanical/freecad/indieduck-r06/assembled.png)
+R20 is the current CAD and simulation study. Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
 
-**Status: early CAD and fit-test prototype.** R06 has recorded digital geometry checks; no physical print, assembly, load, motor or behaviour validation is claimed. This is a starting point for development, not a complete build kit.
+- [Interactive assembly guide](https://armature-ai-labs.github.io/indieduck/): actual CAD, exploded views, component lookup, assembly steps and colour previews.
+- [Browser simulator](https://armature-ai-labs.github.io/indieduck-rl/): joint/pose exploration and a separate physics study.
+- [Complete R20 CAD release](https://github.com/armature-ai-labs/indieduck-cad/releases/tag/r20-simulation-study-v1): editable FreeCAD, STEP/STL, drawings and verification records.
 
-| Repository | Scope |
+| Repository | Responsibility |
 | --- | --- |
-| [indieduck](https://github.com/armature-ai-labs/indieduck) | Hardware CAD, printable exports, fit coupons and build evidence |
-| [indieduck-runtime](https://github.com/armature-ai-labs/indieduck-runtime) | Onboard runtime source and hardware integration work |
-| [indieduck-rl](https://github.com/armature-ai-labs/indieduck-rl) | RL environments, training and evaluation source; robot adaptation work |
+| [indieduck](https://github.com/armature-ai-labs/indieduck) | Project hub, assembly guide, build and workshop documentation |
+| [indieduck-cad](https://github.com/armature-ai-labs/indieduck-cad) | Authoritative editable CAD and mechanical exports |
+| [indieduck-rl](https://github.com/armature-ai-labs/indieduck-rl) | Canonical MuJoCo model, simulator and actual RL training/evaluation/export source |
+| [indieduck-runtime](https://github.com/armature-ai-labs/indieduck-runtime) | Robot-control source and revision-checked simulation adapter |
 
-Software compatibility, successful IndieDuck training and unchanged-policy transfer remain separate, unverified milestones. The linked repositories document their own current limitations.
+![R20 interactive assembly guide](docs/verification/assembly-assembled.png)
 
-## Start here
+## Build and contribute
 
-1. Read the [R06 CAD guide](hardware/mechanical/freecad/indieduck-r06/README.md), then open the sibling Parts and Assembly files in FreeCAD.
-2. Follow the [first-fit print guide](hardware/mechanical/freecad/indieduck-r06/print-test/README.md): PLA coupons first, one rigid left leg next, and a separate TPU 95A sole.
-3. Record real measurements in the [physical test checklist](hardware/mechanical/freecad/indieduck-r06/print-test/coupons/physical-test-checklist.md).
+Start with the guide's complete view, identify components, then inspect each proposed assembly step. Use [assembly feedback](docs/assembly-feedback.md) to record photographs, print settings, measured fit and corrections. The [workshop format](docs/workshops.md) describes teams and reuse. [CONTRIBUTING.md](CONTRIBUTING.md) covers focused changes.
 
-The package contains 33 selected printable parts with native FreeCAD history, matching STEP/STL exports, a linked assembly and removable test fixtures. Native structural features, spreadsheets, lofts, booleans and mirrors are retained. Some appearance profiles are unconstrained or stored shapes: not every dimension is a fully constrained driving parameter. STEP/STL exports do not contain the native history.
+Current hardware direction: 15 Feetech HD-1910-C001 servos on a regulated 5 V rail, Radxa Zero 3W 4 GB/eMMC, Pollen Robot HAT and a 2S battery. Sensor and power integration is incomplete. Do not interpret visual envelopes as procurement approval or a validated wiring plan.
 
-## Current priorities
+The guide labels steps CAD-reviewed or provisional. None is physically verified yet. Exploded offsets and arrows illustrate separation; they do not certify insertion paths, cable travel or tool access. FreeCAD remains the mechanical source; the guide's colour choices do not change material specifications.
 
-- **Body and casing proportions:** the R06 shell envelope measures 115 × 72 × 67 mm, compared with 80.898 × 64.029 × 41.769 mm for the referenced MicroDuck shells; both compared neck joint spacings are 50 mm. These are digital model measurements, not measurements of built robots. Explore lower front shoulders while preserving joint centres, electronics clearance, cable access and structure. The current CAD is unchanged. See [numerical evidence](hardware/mechanical/freecad/indieduck-r06/validation/body-proportions-comparison.json).
-- Print the coupons and trial the actual five-servo left leg with its bearing, horns and fasteners. Confirm access, retention, support removal and repeatable assembly.
-- Resolve hip second supports and verify board/header fit, cables, power-component envelopes, eye/lip retention and roller axle retention.
-- Complete a procurement and fastener BOM, dimensioned manufacturing drawings and illustrated assembly instructions. Those deliverables are not yet included.
-- Validate loads and powered behaviour, then synchronize the robot model, actuator measurements and policies across the software repositories.
+## Run and verify
 
-## Contribute and verify
-
-Use [CONTRIBUTING.md](CONTRIBUTING.md) for focused changes and reproducible fit reports. From the repository root, run:
+See [assembly-guide/README.md](assembly-guide/README.md) for Node installation/build commands. From the repository root:
 
 ```sh
 python3 tools/check_release.py
+cd assembly-guide
+npm ci
+npm test
+npm run build
 ```
 
-This checks release hashes, the export inventory and native archive metadata with the Python standard library. It does not rerun FreeCAD geometry validation or establish physical performance. [Recorded checks](hardware/mechanical/freecad/indieduck-r06/validation/README.md) describe that distinction.
+Integrity checks do not establish physical performance. Simulator and runtime tests have separately documented scopes in their repositories.
 
-## Attribution
+## Historical R06
 
-IndieDuck-authored work is licensed under [Apache-2.0](LICENSE), with the retained attributions in [NOTICE](NOTICE). Open Duck Mini contributors, Jaime Machuca's BD-X cover work and Justin Andrews' Park Head work are credited in the [source record](hardware/mechanical/freecad/indieduck-r06/provenance/R06-source-map.md). Original reference CAD and excluded third-party meshes are not bundled. Configured 3MF jobs and Bambu profile/template files remain outside this repository; the print guide contains our plain settings and instructions.
+The preserved [R06 CAD and first-fit study](hardware/mechanical/freecad/indieduck-r06/README.md) is historical, including its 33 printed parts, coupons and native files. It is not the current R20 robot or a source of current dimensions. Earlier assets remain unchanged for traceability.
+
+## Attribution and terms
+
+IndieDuck-authored software is Apache-2.0. This collection includes CAD-derived visual assets with distinct upstream terms, including reused XGO geometry whose redistribution terms remain unresolved. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source-specific notices; the software licence does not relicense those assets.

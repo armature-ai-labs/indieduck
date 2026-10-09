@@ -1,3 +1,17 @@
+IndieDuck R20 project and assembly guide
+Copyright 2026 Armature AI Labs, for independently authored contributions.
+
+Current R20 visual assets are derived from the pinned indieduck-cad source.
+See THIRD_PARTY_NOTICES.md for applicable source-specific terms, including
+reused XGO geometry whose redistribution terms remain unresolved. This
+notice does not grant a blanket Apache-2.0 licence to imported geometry.
+
+The preserved notice below applies specifically to the historical R06
+payload under hardware/mechanical/freecad/indieduck-r06. Its exclusion
+statements do not describe the newly added R20 visual asset package.
+
+--- Historical R06 notice ---
+
 IndieDuck R06
 IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics’ MicroDuck.
 

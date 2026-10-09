@@ -1,0 +1,150 @@
+{
+  "revision": "R20",
+  "source_cad_commit": "7bcdd1696516f9cff6bdefbc34e42f259c87749a",
+  "steps": [
+    {
+      "id": "overview",
+      "title": "Complete robot",
+      "groups": [
+        "feet",
+        "legs",
+        "trunk",
+        "electronics",
+        "neck",
+        "head",
+        "covers"
+      ],
+      "status": "CAD-reviewed",
+      "instruction": "Compare the complete R20 robot before assembly. The standing pose and part placements come from the published FreeCAD assembly.",
+      "tools": "Parts list and inspection light",
+      "inspect": "Match each part ID to the BOM. Inspect print quality and interfaces before installing hardware.",
+      "limits": "Exploded separation illustrates access; it is not a collision-validated insertion path."
+    },
+    {
+      "id": "feet",
+      "title": "01 \u00b7 Feet and ankles",
+      "groups": [
+        "feet"
+      ],
+      "status": "provisional",
+      "instruction": "Pair each rigid foot with its TPU sole. Identify the ankle horn and opposite bearing support, then inspect the sole fixings and skate locating features.",
+      "tools": "Hex drivers matching selected fasteners; caliper",
+      "inspect": "Check left/right orientation, bearing seating, free ankle motion and sole contact. Retain access to the skate latch and locator pins.",
+      "limits": "Skate removal travel and the final axle/fastener stack need physical verification. No compatible purchased skate is implied."
+    },
+    {
+      "id": "legs",
+      "title": "02 \u00b7 Leg subassemblies",
+      "groups": [
+        "legs",
+        "feet"
+      ],
+      "status": "provisional",
+      "instruction": "Assemble shank and thigh around the HD-1910 servos, horns and supports. Use the component view to identify each joint centre before installing outer covers.",
+      "tools": "Servo-supplied driver; caliper",
+      "inspect": "Verify servo orientation, horn seating and access to retaining screws on both sides. Keep wiring clear of the joint sweep.",
+      "limits": "Do not use the standing pose as a servo electrical-zero reference. Horn calibration follows the joint contract."
+    },
+    {
+      "id": "trunk",
+      "title": "03 \u00b7 Hips and trunk",
+      "groups": [
+        "trunk",
+        "legs"
+      ],
+      "status": "provisional",
+      "instruction": "Join the leg subassemblies to the trunk through the hip yaw, roll and pitch interfaces. Inspect the compact second supports before tightening the assembly.",
+      "tools": "Matching hex drivers; caliper",
+      "inspect": "Confirm both support sides seat without forcing. Inspect the load path from trunk through horn and bearing support.",
+      "limits": "Fit, support stiffness and insertion order need a real assembly trial. No tightening torque is specified."
+    },
+    {
+      "id": "electronics",
+      "title": "04 \u00b7 Electronics",
+      "groups": [
+        "electronics",
+        "trunk"
+      ],
+      "status": "provisional",
+      "instruction": "Review the Radxa Zero 3W, Pollen HAT, two IMU locations, camera, ToF and battery envelopes. Install and test board supports before closing the shell.",
+      "tools": "Caliper; board standoffs selected after fit checks",
+      "inspect": "Check board dimensions, connector height, mounting clearance and removal access. Keep actual pack sensing separate from the regulated 5 V servo rail.",
+      "limits": "NFC, audio and some power hardware remain provisional. Displayed envelopes do not establish connector or electrical compatibility."
+    },
+    {
+      "id": "neck",
+      "title": "05 \u00b7 Neck",
+      "groups": [
+        "neck",
+        "trunk",
+        "head"
+      ],
+      "status": "provisional",
+      "instruction": "Assemble the neck supports and head pitch/yaw interfaces around the established axes. Keep horns, bearings and retention points accessible.",
+      "tools": "Matching hex drivers; servo alignment reference",
+      "inspect": "Check free motion at each joint independently before fitting the head shell. Confirm cables can pass without pinching.",
+      "limits": "Sampled CAD clearance checks do not validate combined motion or cable bending. Do not power the robot from this guide."
+    },
+    {
+      "id": "head",
+      "title": "06 \u00b7 Head and direct-drive jaw",
+      "groups": [
+        "head",
+        "electronics"
+      ],
+      "status": "provisional",
+      "instruction": "Fit the current R20 head core and matching jaw mechanism. Identify the direct-drive servo and opposite hinge support; retain the pin and verify moving/fixed interfaces.",
+      "tools": "Matching driver; caliper; 40 mm test ball",
+      "inspect": "Inspect hinge seating and screw access, then manually check closed, 15\u00b0 and 30\u00b0 jaw positions against the CAD study.",
+      "limits": "This is the R20 direct-drive mechanism, not the historical R07 crank linkage. Grip force and jaw travel require physical checks."
+    },
+    {
+      "id": "wiring",
+      "title": "07 \u00b7 Cable routing",
+      "groups": [
+        "electronics",
+        "trunk",
+        "neck",
+        "head",
+        "legs"
+      ],
+      "status": "provisional",
+      "instruction": "Route actual servo leads and camera cable only after connector dimensions and bend limits are available. Leave service access and strain-relief provision around each joint.",
+      "tools": "Actual selected harnesses; continuity meter for an approved wiring plan",
+      "inspect": "Inspect moving joints, shell edges and board connectors for pinch points. Label cables and record measured free length.",
+      "limits": "No verified harness path or pinout is provided. No animated line should be interpreted as an approved electrical connection."
+    },
+    {
+      "id": "covers",
+      "title": "08 \u00b7 Covers and colour parts",
+      "groups": [
+        "covers",
+        "head",
+        "feet"
+      ],
+      "status": "provisional",
+      "instruction": "Fit the face, eye details and outer covers after mechanism checks. Attach the R20 removable head band using its provisional M2 screw/washer/nut arrangement.",
+      "tools": "Matching M2 driver; selected fasteners",
+      "inspect": "Confirm tool access and removal without disturbing the head mechanism. Inspect band seating and ensure optics remain unobstructed.",
+      "limits": "Band screws, washers and nuts are absent from source CAD. Guide wireframes are provisional fit envelopes, not manufacturer geometry. M2\u00d710 with 0.5 mm washer remains provisional; confirm the real stack before purchase."
+    },
+    {
+      "id": "review",
+      "title": "09 \u00b7 Final inspection",
+      "groups": [
+        "feet",
+        "legs",
+        "trunk",
+        "electronics",
+        "neck",
+        "head",
+        "covers"
+      ],
+      "status": "provisional",
+      "instruction": "Return to the assembled view, compare both sides and record fit observations before any powered commissioning.",
+      "tools": "Inspection checklist; photographs; measurement record",
+      "inspect": "Log revision, material, print settings, fastener substitutions and measured clearances. Report each change with photographs.",
+      "limits": "No step is physically verified yet. This guide does not certify structural strength, electrical safety or learned motion."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "revision": "R20",
+  "date": "2026-10-09",
+  "source_cad_commit": "7bcdd1696516f9cff6bdefbc34e42f259c87749a",
+  "node": "22.23.3",
+  "tests": {
+    "node": {
+      "passed": 6,
+      "failed": 0
+    },
+    "vite_build": "passed; one bundle-size advisory, 812 kB uncompressed / 219 kB gzip"
+  },
+  "browser": {
+    "engine": "Playwright Chromium, local macOS",
+    "fallback_reason": "IAB visibility unavailable in subagent; parent independently inspected IAB",
+    "viewports": [
+      [
+        1280,
+        800
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "cad_references": 124,
+    "printed_components": 41,
+    "triangles": 128318,
+    "controls_verified": [
+      "orbit/standard views",
+      "exploded maximum framing",
+      "component search",
+      "isolate 1",
+      "hide 0",
+      "restore 124",
+      "colour change",
+      "all 10 sequence entries",
+      "transparent covers",
+      "provisional hardware toggle",
+      "reset",
+      "mobile no horizontal overflow"
+    ],
+    "warm_model_load_ms": [
+      395.4,
+      279.7,
+      310.7,
+      244.8,
+      288.8
+    ],
+    "warm_model_load_median_ms": 288.8,
+    "idle_render_count_start": 237,
+    "idle_render_count_end": 237,
+    "idle_interval_ms": 750
+  },
+  "limits": [
+    "Local warm browser measurements, not cold internet or mobile device performance.",
+    "Proposed insertion paths, actual tool access and physical assembly remain unverified.",
+    "Band wireframe envelopes are provisional, not manufacturer geometry.",
+    "Source notices retained; visual assets have mixed source-specific terms.",
+    "GitHub deployment verification is recorded by the coordinated release, not this local test."
+  ]
+}

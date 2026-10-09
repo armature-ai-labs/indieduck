@@ -2,7 +2,15 @@
 
 Please keep each change focused and explain the problem, affected part or interface, and evidence for the result. Use an issue for fit observations or a design proposal before making a broad mechanical revision.
 
-## CAD and print changes
+## Current R20 work
+
+Mechanical edits belong in `armature-ai-labs/indieduck-cad`. Keep FreeCAD authoritative and regenerate the pinned browser assets after review. Do not edit visual meshes as the mechanical source. Changes to the assembly guide should include desktop/mobile views, component identities and corresponding guide-step updates.
+
+Record actual build observations with `docs/assembly-feedback.md`. Keep provisional steps separate from physical verification. CAD references, compound fastener objects and actual purchase quantities are different concepts.
+
+Run the guide tests and production build after source changes. Preserve the CAD source commit, source notices, mesh hashes and original assembled transforms. Do not introduce Blender as a second deliverable.
+
+## Historical R06 CAD and print changes
 
 - Keep the native Parts and Assembly files together. Edit the native features, recompute both documents and retain the selected export inventory in `part-map.json`.
 - Describe which dimensions changed and why. Preserve joint centres and mating interfaces unless the change explicitly addresses them.

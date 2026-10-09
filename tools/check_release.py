@@ -23,7 +23,7 @@ def digest(path):
 
 def files():
     return sorted(p for p in ROOT.rglob('*') if p.is_file()
-                  and not any(x in {'.git', '__pycache__'} for x in p.relative_to(ROOT).parts)
+                  and not any(x in {'.git', '__pycache__', 'node_modules', 'dist', 'test-results', '.vite'} for x in p.relative_to(ROOT).parts)
                   and p != MANIFEST and p.name != '.DS_Store' and p.suffix != '.pyc')
 
 
@@ -73,6 +73,27 @@ def check():
             for child in value:
                 check_assets(child)
     check_assets(source_map)
+    guide = ROOT / 'assembly-guide/public/model'
+    if guide.exists() and (guide / 'manifest.json').exists():
+        model = json.loads((guide / 'manifest.json').read_text())
+        parts = model['parts']
+        if len(parts) != 124 or len({p['id'] for p in parts}) != 124:
+            errors.append('R20 guide must contain 124 distinct visible CAD components')
+        if sum(p['category'] == 'printed' for p in parts) != 41:
+            errors.append('R20 guide must identify 41 printed components')
+        for part in parts:
+            path = guide / part['mesh']
+            if not path.is_file():
+                errors.append(f'Missing guide mesh: {part["id"]}')
+        manifest = guide / 'SHA256SUMS.txt'
+        if not manifest.exists():
+            errors.append('Missing R20 guide asset checksum manifest')
+        else:
+            for line in manifest.read_text().splitlines():
+                sha, name = line.split('  ', 1)
+                path = guide / name
+                if not path.is_file() or digest(path) != sha:
+                    errors.append(f'R20 guide checksum mismatch: {name}')
     return inventory, errors
 
 
