@@ -1,6 +1,6 @@
 # Build and fit observations
 
-Use the R20 browser assembly guide with the native FreeCAD source. Every physical step is initially provisional.
+Use the R25 browser assembly guide with the native FreeCAD source. Every physical step is initially provisional.
 
 For each trial, record:
 

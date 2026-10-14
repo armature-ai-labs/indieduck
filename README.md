@@ -2,11 +2,11 @@
 
 **IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics’ MicroDuck.**
 
-R20 is the current CAD and simulation study. Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
+R25 is the current CAD and simulation study: a reference-driven exterior on the R20 mechanism, with exact CAD throughout and no XGO-Duck geometry. Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
 
 - [Interactive assembly guide](https://armature-ai-labs.github.io/indieduck/): actual CAD, exploded views, component lookup, assembly steps and colour previews.
 - [Browser simulator](https://armature-ai-labs.github.io/indieduck-rl/): joint/pose exploration and a separate physics study.
-- [Complete R20 CAD release](https://github.com/armature-ai-labs/indieduck-cad/releases/tag/r20-simulation-study-v1): editable FreeCAD, STEP/STL, drawings and verification records.
+- [R25 CAD release](https://github.com/armature-ai-labs/indieduck-cad/releases/tag/r25-cad-study-v5): editable FreeCAD, STEP/STL and verification records. R20 remains at its tag `r20-simulation-study-v1`.
 
 | Repository | Responsibility |
 | --- | --- |
@@ -15,7 +15,7 @@ R20 is the current CAD and simulation study. Explore the robot, inspect its comp
 | [indieduck-rl](https://github.com/armature-ai-labs/indieduck-rl) | Canonical MuJoCo model, simulator and actual RL training/evaluation/export source |
 | [indieduck-runtime](https://github.com/armature-ai-labs/indieduck-runtime) | Robot-control source and revision-checked simulation adapter |
 
-![R20 interactive assembly guide](docs/verification/assembly-assembled.png)
+![R25 assembled CAD](docs/verification/r25-assembly-cad.png)
 
 ## Build and contribute
 
@@ -46,3 +46,7 @@ The preserved [R06 CAD and first-fit study](hardware/mechanical/freecad/indieduc
 ## Attribution and terms
 
 IndieDuck-authored software is Apache-2.0. This collection includes CAD-derived visual assets with distinct upstream terms, including reused XGO geometry whose redistribution terms remain unresolved. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source-specific notices; the software licence does not relicense those assets.
+
+## Credits
+
+[Zankar Savalia](https://www.linkedin.com/in/zankarvs/) contributed to the design of the R25 exterior and helped prepare it for publication. See [CONTRIBUTORS.md](CONTRIBUTORS.md).

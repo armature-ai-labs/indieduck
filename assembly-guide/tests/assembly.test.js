@@ -6,9 +6,9 @@ import {groupFor,explosionOffset,componentLinks,visiblePart,CAD_REV,displayLabel
 const model=JSON.parse(fs.readFileSync(new URL('../public/model/manifest.json',import.meta.url)));
 const steps=JSON.parse(fs.readFileSync(new URL('../src/steps.json',import.meta.url)));
 const parts=model.parts;
-test('complete pinned R20 inventory, printable export links and actual meshes',()=>{
- assert.equal(model.revision,'R20');assert.equal(parts.length,124);assert.equal(new Set(parts.map(p=>p.id)).size,124);
- const printed=parts.filter(p=>p.category==='printed');assert.equal(printed.length,41);
+test('complete pinned R25 inventory, printable export links and actual meshes',()=>{
+ assert.equal(model.revision,'R25');assert.equal(parts.length,141);assert.equal(new Set(parts.map(p=>p.id)).size,141);
+ const printed=parts.filter(p=>p.category==='printed');assert.equal(printed.length,51);
  for(const part of parts){assert.ok(fs.existsSync(new URL('../public/model/'+part.mesh,import.meta.url)));assert.equal(part.source_commit,CAD_REV);assert.equal(part.color.length,3);}
  for(const part of printed){const links=componentLinks(part);assert.ok(links.native.includes(CAD_REV));assert.ok(links.step.endsWith('.step'));assert.ok(links.stl.endsWith('.stl'));}
 });
@@ -20,7 +20,7 @@ test('all components have guide coverage and physically verified claims absent',
  const groups=new Set(steps.steps.flatMap(s=>s.groups));for(const part of parts)assert.ok(groups.has(groupFor(part)),part.id);
  assert.ok(steps.steps.every(s=>['CAD-reviewed','provisional'].includes(s.status)));
  assert.equal(groupFor({id:'A_ref_CameraLens'}),'electronics');assert.equal(groupFor({id:'A_R18_NeckBearing693'}),'neck');
- assert.equal(groupFor({id:'A_R20_RemovableRearBand'}),'covers');
+ assert.equal(groupFor({id:'HelmetRoof'}),'covers');assert.equal(groupFor({id:'ShinCap_L'}),'covers');assert.equal(groupFor({id:'CameraFace'}),'covers');assert.equal(groupFor({id:'A_HeadBase'}),'head');
 });
 test('hide/isolate/focus are reversible and independent of transforms',()=>{
  const p={id:'foot',group:'feet'};const s={hidden:[],isolated:null,focus:false,step:{groups:['feet']}};
@@ -35,6 +35,6 @@ test('copied asset checksum manifest matches every delivered visual file',()=>{
 
 test('human labels preserve the exact source identity separately',()=>{
  assert.equal(displayLabel({id:'A_ref_servo_left_ankle'}),'Left ankle servo');
- assert.equal(displayLabel({id:'A_RoundedFoot_L'}),'Left Compact walking foot');
+ assert.equal(displayLabel({id:'FacetedFoot_L'}),'Left Faceted foot');
  assert.equal(displayLabel({id:'A_R18C_PitchClampNut_L'}),'Left Pitch Clamp Nut');
 });

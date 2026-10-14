@@ -1,6 +1,6 @@
 # IndieDuck publication guidance
 
-- The approved R20 split uses indieduck, indieduck-cad, indieduck-rl and indieduck-runtime. Earlier one-repository guidance is superseded.
+- The approved four-repository split (since R20) uses indieduck, indieduck-cad, indieduck-rl and indieduck-runtime. Earlier one-repository guidance is superseded.
 - Assembly guide correction, 9 October 2026: Three.js is sufficient. Do not add a Blender deliverable. FreeCAD remains the mechanical source.
 - Use actual CAD geometry and preserve component identities, assembled transforms and source-specific attribution. Exploded offsets are presentation only.
 - Preserve R06 history. Current geometry belongs in the dedicated CAD repository, with pinned visual copies for the browser guide.

@@ -1,6 +1,6 @@
 {
-  "revision": "R20",
-  "source_cad_commit": "7bcdd1696516f9cff6bdefbc34e42f259c87749a",
+  "revision": "R25",
+  "source_cad_commit": "78db62f (armature-ai-labs/indieduck-cad release r25-cad-study-v5)",
   "steps": [
     {
       "id": "overview",
@@ -15,52 +15,52 @@
         "covers"
       ],
       "status": "CAD-reviewed",
-      "instruction": "Compare the complete R20 robot before assembly. The standing pose and part placements come from the published FreeCAD assembly.",
+      "instruction": "Compare the complete R25 robot before assembly. The standing pose and part placements come from the published FreeCAD assembly (release r25-cad-study-v5).",
       "tools": "Parts list and inspection light",
       "inspect": "Match each part ID to the BOM. Inspect print quality and interfaces before installing hardware.",
       "limits": "Exploded separation illustrates access; it is not a collision-validated insertion path."
     },
     {
       "id": "feet",
-      "title": "01 \u00b7 Feet and ankles",
+      "title": "01 · Feet and ankles",
       "groups": [
         "feet"
       ],
       "status": "provisional",
-      "instruction": "Pair each rigid foot with its TPU sole. Identify the ankle horn and opposite bearing support, then inspect the sole fixings and skate locating features.",
+      "instruction": "Pair each faceted foot with its TPU sole. Identify the ankle horn and opposite bearing support, then inspect the sole fixings and skate locating features. Toe caps fit with the covers in step 08.",
       "tools": "Hex drivers matching selected fasteners; caliper",
       "inspect": "Check left/right orientation, bearing seating, free ankle motion and sole contact. Retain access to the skate latch and locator pins.",
       "limits": "Skate removal travel and the final axle/fastener stack need physical verification. No compatible purchased skate is implied."
     },
     {
       "id": "legs",
-      "title": "02 \u00b7 Leg subassemblies",
+      "title": "02 · Leg subassemblies",
       "groups": [
         "legs",
         "feet"
       ],
       "status": "provisional",
-      "instruction": "Assemble shank and thigh around the HD-1910 servos, horns and supports. Use the component view to identify each joint centre before installing outer covers.",
+      "instruction": "Assemble the thigh and shank structure around the HD-1910 servos, horns and supports. Use the component view to identify each joint centre before fitting the thigh and shin caps.",
       "tools": "Servo-supplied driver; caliper",
       "inspect": "Verify servo orientation, horn seating and access to retaining screws on both sides. Keep wiring clear of the joint sweep.",
       "limits": "Do not use the standing pose as a servo electrical-zero reference. Horn calibration follows the joint contract."
     },
     {
       "id": "trunk",
-      "title": "03 \u00b7 Hips and trunk",
+      "title": "03 · Hips and trunk",
       "groups": [
         "trunk",
         "legs"
       ],
       "status": "provisional",
-      "instruction": "Join the leg subassemblies to the trunk through the hip yaw, roll and pitch interfaces. Inspect the compact second supports before tightening the assembly.",
+      "instruction": "Join the leg subassemblies to the trunk through the hip yaw, roll and pitch interfaces. The hip roll supports carry mounting lands for the hip cowls fitted in step 08; inspect the compact second supports before tightening.",
       "tools": "Matching hex drivers; caliper",
       "inspect": "Confirm both support sides seat without forcing. Inspect the load path from trunk through horn and bearing support.",
       "limits": "Fit, support stiffness and insertion order need a real assembly trial. No tightening torque is specified."
     },
     {
       "id": "electronics",
-      "title": "04 \u00b7 Electronics",
+      "title": "04 · Electronics",
       "groups": [
         "electronics",
         "trunk"
@@ -73,7 +73,7 @@
     },
     {
       "id": "neck",
-      "title": "05 \u00b7 Neck",
+      "title": "05 · Neck",
       "groups": [
         "neck",
         "trunk",
@@ -83,24 +83,24 @@
       "instruction": "Assemble the neck supports and head pitch/yaw interfaces around the established axes. Keep horns, bearings and retention points accessible.",
       "tools": "Matching hex drivers; servo alignment reference",
       "inspect": "Check free motion at each joint independently before fitting the head shell. Confirm cables can pass without pinching.",
-      "limits": "Sampled CAD clearance checks do not validate combined motion or cable bending. Do not power the robot from this guide."
+      "limits": "The CAD-verified neck range is -65 to +27.5 degrees with the head joints at zero. Combined head motion and cable bending are not validated. Do not power the robot from this guide."
     },
     {
       "id": "head",
-      "title": "06 \u00b7 Head and direct-drive jaw",
+      "title": "06 · Head base and direct-drive jaw",
       "groups": [
         "head",
         "electronics"
       ],
       "status": "provisional",
-      "instruction": "Fit the current R20 head core and matching jaw mechanism. Identify the direct-drive servo and opposite hinge support; retain the pin and verify moving/fixed interfaces.",
+      "instruction": "Fit the R25 head base, which carries the roll and mouth servo cradles, the jaw bearing tower and the camera carrier. Fit the jaw on its bearing plug, with the jaw surrounds' pins in the horn-side holes; retain the pin and verify moving and fixed interfaces.",
       "tools": "Matching driver; caliper; 40 mm test ball",
-      "inspect": "Inspect hinge seating and screw access, then manually check closed, 15\u00b0 and 30\u00b0 jaw positions against the CAD study.",
-      "limits": "This is the R20 direct-drive mechanism, not the historical R07 crank linkage. Grip force and jaw travel require physical checks."
+      "inspect": "Inspect hinge seating and screw access, then manually check closed, 15° and 30° jaw positions against the CAD study.",
+      "limits": "R25 direct-drive mechanism. The jaw clears the head base through 0 to 30 degrees in CAD; grip force and jaw travel require physical checks."
     },
     {
       "id": "wiring",
-      "title": "07 \u00b7 Cable routing",
+      "title": "07 · Cable routing",
       "groups": [
         "electronics",
         "trunk",
@@ -116,21 +116,21 @@
     },
     {
       "id": "covers",
-      "title": "08 \u00b7 Covers and colour parts",
+      "title": "08 · Covers and colour parts",
       "groups": [
         "covers",
         "head",
         "feet"
       ],
       "status": "provisional",
-      "instruction": "Fit the face, eye details and outer covers after mechanism checks. Attach the R20 removable head band using its provisional M2 screw/washer/nut arrangement.",
+      "instruction": "After mechanism checks, fit the helmet (lower band, roof, rims, rear bumper), face bezel, camera face and optical rings; the torso and pelvis panels with their inlays; the hip cowls; and the thigh, shin and toe caps.",
       "tools": "Matching M2 driver; selected fasteners",
-      "inspect": "Confirm tool access and removal without disturbing the head mechanism. Inspect band seating and ensure optics remain unobstructed.",
-      "limits": "Band screws, washers and nuts are absent from source CAD. Guide wireframes are provisional fit envelopes, not manufacturer geometry. M2\u00d710 with 0.5 mm washer remains provisional; confirm the real stack before purchase."
+      "inspect": "Confirm tool access and removal without disturbing the head mechanism. Check that the camera optics remain unobstructed and that caps clear each joint through its range.",
+      "limits": "Fastener lengths for cowls and caps are unconfirmed. The 1 mm optical rings and small torso inlays need a retention method. Print HelmetLower upside down on its flat top edge."
     },
     {
       "id": "review",
-      "title": "09 \u00b7 Final inspection",
+      "title": "09 · Final inspection",
       "groups": [
         "feet",
         "legs",

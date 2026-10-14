@@ -2,7 +2,7 @@
 
 Please keep each change focused and explain the problem, affected part or interface, and evidence for the result. Use an issue for fit observations or a design proposal before making a broad mechanical revision.
 
-## Current R20 work
+## Current R25 work
 
 Mechanical edits belong in `armature-ai-labs/indieduck-cad`. Keep FreeCAD authoritative and regenerate the pinned browser assets after review. Do not edit visual meshes as the mechanical source. Changes to the assembly guide should include desktop/mobile views, component identities and corresponding guide-step updates.
 

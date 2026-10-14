@@ -77,23 +77,23 @@ def check():
     if guide.exists() and (guide / 'manifest.json').exists():
         model = json.loads((guide / 'manifest.json').read_text())
         parts = model['parts']
-        if len(parts) != 124 or len({p['id'] for p in parts}) != 124:
-            errors.append('R20 guide must contain 124 distinct visible CAD components')
-        if sum(p['category'] == 'printed' for p in parts) != 41:
-            errors.append('R20 guide must identify 41 printed components')
+        if len(parts) != 141 or len({p['id'] for p in parts}) != 141:
+            errors.append('R25 guide must contain 141 distinct visible CAD components')
+        if sum(p['category'] == 'printed' for p in parts) != 51:
+            errors.append('R25 guide must identify 51 printed components')
         for part in parts:
             path = guide / part['mesh']
             if not path.is_file():
                 errors.append(f'Missing guide mesh: {part["id"]}')
         manifest = guide / 'SHA256SUMS.txt'
         if not manifest.exists():
-            errors.append('Missing R20 guide asset checksum manifest')
+            errors.append('Missing R25 guide asset checksum manifest')
         else:
             for line in manifest.read_text().splitlines():
                 sha, name = line.split('  ', 1)
                 path = guide / name
                 if not path.is_file() or digest(path) != sha:
-                    errors.append(f'R20 guide checksum mismatch: {name}')
+                    errors.append(f'R25 guide checksum mismatch: {name}')
     return inventory, errors
 
 

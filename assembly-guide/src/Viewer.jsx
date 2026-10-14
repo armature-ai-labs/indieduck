@@ -76,7 +76,7 @@ export default function Viewer({parts, state, onSelect, onReady, view, resetKey}
       mesh.material.transparent=state.transparent&&p.group==='covers';mesh.material.opacity=mesh.material.transparent?0.22:1;mesh.material.depthWrite=!mesh.material.transparent;
       const highlighted=state.selected===id;const stepHighlight=!['overview','review'].includes(state.step.id)&&state.step.groups.includes(p.group);mesh.material.emissive.set(highlighted||stepHighlight?0x875711:0x000000);mesh.material.emissiveIntensity=highlighted?0.3:stepHighlight?0.07:0;}
     for(const arrow of [...v.arrows.children]){arrow.line.material.dispose();arrow.cone.material.dispose();}v.arrows.clear();
-    v.fasteners.visible=state.showHardware&&Boolean(v.meshes.get('A_R20_RemovableRearBand')?.visible);
+    v.fasteners.visible=state.showHardware&&v.fasteners.children.length>0;
     v.fasteners.position.set(...explosionOffset({group:'covers',id:'band'},state.explosion));
     if(state.directions&&state.explosion>0&&state.step.id!=='overview'){
       const seen=new Set();for(const mesh of v.meshes.values()){const p=mesh.userData.part;if(!mesh.visible||!state.step.groups.includes(p.group)||seen.has(p.group))continue;seen.add(p.group);const c=mesh.geometry.boundingBox.getCenter(new THREE.Vector3());const offset=new THREE.Vector3(...explosionOffset(p,state.explosion));if(offset.length()<1)continue;const arrow=new THREE.ArrowHelper(offset.clone().negate().normalize(),c.clone().add(offset),offset.length(),0xb4801b,8,4);v.arrows.add(arrow);}
@@ -84,5 +84,5 @@ export default function Viewer({parts, state, onSelect, onReady, view, resetKey}
   },[state,progress]);
   useEffect(()=>{const v=sceneRef.current;if(!v)return;if(view==='Fit visible')v.fitVisible();else {v.setView(view);if(v.diagnostics.ready)v.fitVisible();}},[view,resetKey]);
   useEffect(()=>{if(progress===parts.length)sceneRef.current?.fitVisible();},[state.explosion,state.focus,state.isolated,state.hidden,state.step.id,progress]);
-  return <div className="canvas-host" ref={host} aria-label="Interactive R20 CAD assembly">{progress<parts.length&&!error&&<div className="loading" role="status"><strong>Loading R20 CAD</strong><span>{progress} / {parts.length} components</span></div>}{error&&<div className="loading" role="alert">Unable to load CAD: {error}</div>}</div>;
+  return <div className="canvas-host" ref={host} aria-label="Interactive R25 CAD assembly">{progress<parts.length&&!error&&<div className="loading" role="status"><strong>Loading R25 CAD</strong><span>{progress} / {parts.length} components</span></div>}{error&&<div className="loading" role="alert">Unable to load CAD: {error}</div>}</div>;
 }

@@ -1,4 +1,8 @@
-# R20 assembly guide verification
+# Assembly guide verification
+
+**R25 (14 October 2026).** The guide now shows the R25 CAD (`indieduck-cad` release `r25-cad-study-v5`): 141 components, 51 printed. `npm test` passes 6 tests (inventory, mesh presence, pinned CAD links, step coverage for every component, checksums, labels) and the production build succeeds. The R20 removable head band and its provisional fasteners no longer exist. The R20 verification record below and its screenshots are kept for history; a browser screenshot of the R25 guide is still to be taken.
+
+## R20 assembly guide verification (history)
 
 The local production build was inspected at 1280 × 800 and 390 × 844. All 124 CAD references loaded, including 41 selected printed components. Node 22.23.3 passed six integrity/control-data tests and the Vite production build. See [machine-readable evidence](assembly-checks.json).
 

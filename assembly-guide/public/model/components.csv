@@ -1,131 +1,142 @@
 id,label,category,reference_quantity,physical_quantity,material,status,native_object
-A_Trunk,A_Trunk,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Trunk
-A_Neck,A_Neck,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Neck
-A_HeadPitch,A_HeadPitch,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_HeadPitch
-A_HeadYaw,A_HeadYaw,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_HeadYaw
-A_Yaw_L,A_Yaw_L,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Yaw_L
-A_HipL_L,A_HipL_L,printed,1,1,PLA initial fit test,CAD reference; fit unverified,HipL_L
-A_Thigh_L,A_Thigh_L,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Thigh_L
-A_Shank_L,A_Shank_L,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Shank_L
-A_RoundedFoot_L,A_RoundedFoot_L,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R11_CompactFoot_L
-A_SoftHeadShell,R20 head shell with band mount holes,printed,1,1,PLA initial fit test,CAD reference; fit unverified,HeadShellWithBandMounts
-A_BodyFront,A_BodyFront,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R08_BodyFront
-A_BodyBack,A_BodyBack,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R08_BodyBack
-A_RoundedSole_L,A_RoundedSole_L,printed,1,1,TPU 95A,CAD reference; fit unverified,R11_CompactSole_L
-A_ThighPlate_L,A_ThighPlate_L,printed,1,1,PLA initial fit test,CAD reference; fit unverified,ThighPlate_L
-A_O2_HeadBase,A_O2_HeadBase,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R19_UpperBillYawClearance
-A_O2_Jaw,A_O2_Jaw,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_RepairedJaw
-A_O2_UpperLip,A_O2_UpperLip,printed,1,1,TPU 95A,CAD reference; fit unverified,XGO_mouth_up_tpu_Source
-A_O2_JawEdge,A_O2_JawEdge,printed,1,1,TPU 95A,CAD reference; fit unverified,XGO_mouth_buttom_tpu_Source
-A_Yaw_R,A_Yaw_R,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Yaw_R
-A_HipL_R,A_HipL_R,printed,1,1,PLA initial fit test,CAD reference; fit unverified,HipL_R
-A_Thigh_R,A_Thigh_R,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Thigh_R
-A_Shank_R,A_Shank_R,printed,1,1,PLA initial fit test,CAD reference; fit unverified,Shank_R
-A_RoundedFoot_R,A_RoundedFoot_R,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R11_CompactFoot_R
-A_RoundedSole_R,A_RoundedSole_R,printed,1,1,TPU 95A,CAD reference; fit unverified,R11_CompactSole_R
-A_ThighPlate_R,A_ThighPlate_R,printed,1,1,PLA initial fit test,CAD reference; fit unverified,ThighPlate_R
-A_O2_EyeL,A_O2_EyeL,printed,1,1,PLA initial fit test,CAD reference; fit unverified,O2_EyeL
-A_O2_EyeR,A_O2_EyeR,printed,1,1,PLA initial fit test,CAD reference; fit unverified,O2_EyeR
-A_ref_servo_left_ankle,A_ref_servo_left_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_left_ankle
-A_ref_horn_left_ankle,A_ref_horn_left_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_left_ankle
-A_ref_servo_left_knee,A_ref_servo_left_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_left_knee
-A_ref_horn_left_knee,A_ref_horn_left_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_left_knee
-A_ref_servo_left_hip_pitch,A_ref_servo_left_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_left_hip_pitch
-A_ref_servo_left_hip_roll,A_ref_servo_left_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_left_hip_roll
-A_ref_horn_left_hip_roll,A_ref_horn_left_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_left_hip_roll
-A_ref_horn_left_hip_pitch,A_ref_horn_left_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_left_hip_pitch
-A_ref_servo_left_hip_yaw,A_ref_servo_left_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_left_hip_yaw
-A_ref_horn_left_hip_yaw,A_ref_horn_left_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_left_hip_yaw
-A_ref_servo_right_hip_yaw,A_ref_servo_right_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_right_hip_yaw
-A_ref_horn_right_hip_yaw,A_ref_horn_right_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_right_hip_yaw
-A_ref_servo_neck_pitch,A_ref_servo_neck_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_neck_pitch
-A_ref_horn_neck_pitch,A_ref_horn_neck_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_neck_pitch
-A_ref_servo_head_pitch,A_ref_servo_head_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_head_pitch
-A_ref_horn_head_pitch,A_ref_horn_head_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_head_pitch
-A_ref_servo_head_yaw,A_ref_servo_head_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_head_yaw
-A_ref_horn_head_yaw,A_ref_horn_head_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_head_yaw
-A_ref_servo_head_roll,A_ref_servo_head_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_head_roll
-A_ref_horn_head_roll,A_ref_horn_head_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_head_roll
-A_ref_servo_mouth,A_ref_servo_mouth,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R16_MouthServo
-A_ref_horn_mouth,A_ref_horn_mouth,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R16_MouthHorn
-A_ref_Radxa_PCB,A_ref_Radxa_PCB,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_Radxa_PCB
-A_ref_Radxa_GPIO,A_ref_Radxa_GPIO,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_Radxa_GPIO
-A_ref_HAT_PCB,A_ref_HAT_PCB,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_PCB
-A_ref_HAT_GPIO,A_ref_HAT_GPIO,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_GPIO
-A_ref_HAT_J1,A_ref_HAT_J1,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J1
-A_ref_HAT_J5,A_ref_HAT_J5,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J5
-A_ref_HAT_J14,A_ref_HAT_J14,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J14
-A_ref_HAT_J9,A_ref_HAT_J9,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J9
-A_ref_HAT_J6,A_ref_HAT_J6,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J6
-A_ref_HAT_J3,A_ref_HAT_J3,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J3
-A_ref_HAT_J7,A_ref_HAT_J7,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J7
-A_ref_HAT_J13,A_ref_HAT_J13,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J13
-A_ref_HAT_J8,A_ref_HAT_J8,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J8
-A_ref_HAT_J11,A_ref_HAT_J11,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J11
-A_ref_HAT_J2,A_ref_HAT_J2,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_J2
-A_ref_HAT_IMU,A_ref_HAT_IMU,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HAT_IMU
-A_ref_servo_right_hip_roll,A_ref_servo_right_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_right_hip_roll
-A_ref_horn_right_hip_roll,A_ref_horn_right_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_right_hip_roll
-A_ref_servo_right_hip_pitch,A_ref_servo_right_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_right_hip_pitch
-A_ref_horn_right_hip_pitch,A_ref_horn_right_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_right_hip_pitch
-A_ref_servo_right_knee,A_ref_servo_right_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_right_knee
-A_ref_horn_right_knee,A_ref_horn_right_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_right_knee
-A_ref_servo_right_ankle,A_ref_servo_right_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_servo_right_ankle
-A_ref_horn_right_ankle,A_ref_horn_right_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_horn_right_ankle
-A_ref_Battery_Provisional,A_ref_Battery_Provisional,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_Battery_Provisional
-A_ref_CameraPCB,A_ref_CameraPCB,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_CameraPCB
-A_ref_CameraLens,A_ref_CameraLens,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_CameraLens
-A_ref_ToFPCB,A_ref_ToFPCB,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_ToFPCB
-A_ref_ToFOptics,A_ref_ToFOptics,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_ToFOptics
-A_ref_HeadIMU,A_ref_HeadIMU,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_HeadIMU
-A_ref_CameraLED,A_ref_CameraLED,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,ref_CameraLED
-A_R10_EyeRing_L,A_R10_EyeRing_L,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R10_EyeRing_L
-A_R10_EyeRing_R,A_R10_EyeRing_R,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R10_EyeRing_R
-A_R16_TwoEyeFace,A_R16_TwoEyeFace,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_FastenedFace
-A_R17_HeadYawClampCap,A_R17_HeadYawClampCap,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_HeadYawClampCap
-A_R17_RollServoCradle,A_R17_RollServoCradle,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_RollServoCradleV2
-A_R17_RollCradleTopClamp,A_R17_RollCradleTopClamp,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_RollCradleTopClamp
-A_R17_MouthServoCradle,A_R17_MouthServoCradle,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_MouthServoCradle
-A_R17_MouthServoKeeper,A_R17_MouthServoKeeper,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17_MouthServoKeeper
-A_R17_JawBearingTower,A_R17_JawBearingTower,printed,1,1,PLA initial fit test,CAD reference; fit unverified,TowerFootMount1
-A_R17_JawBearingKeeper,A_R17_JawBearingKeeper,printed,1,1,PLA initial fit test,CAD reference; fit unverified,KeeperClearance1
-A_R17_JawBearingPlug,A_R17_JawBearingPlug,printed,1,1,PLA initial fit test,CAD reference; fit unverified,PlugNutPocket
-A_ref_R17_JawBearing16x22x4,A_ref_R17_JawBearing16x22x4,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,Bearing16x22x4
-A_R17_FaceCarrier,A_R17_FaceCarrier,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R17Face_Carrier_80
-A_ref_R17_FaceFasteners,A_ref_R17_FaceFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,R17Face_FastenerEnvelopes_84
-A_ref_R17_FixedCarrierFasteners,A_ref_R17_FixedCarrierFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,ref_R17_FixedCarrierFasteners
-A_ref_R17_HeadModuleFasteners,A_ref_R17_HeadModuleFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,ref_R17_HeadModuleFasteners
-A_ref_R17_JawFasteners,A_ref_R17_JawFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,ref_R17_JawFasteners
-A_R18_NeckBearingRetainer,A_R18_NeckBearingRetainer,printed,1,1,PLA initial fit test,CAD reference; fit unverified,R18_NeckBearingRetainer
-A_R18_NeckBearing693,A_R18_NeckBearing693,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckBearing693
-A_R18_NeckSpacerOuter,A_R18_NeckSpacerOuter,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckSpacerOuter
-A_R18_NeckSpacerInner,A_R18_NeckSpacerInner,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckSpacerInner
-A_R18_NeckShoulderPin,A_R18_NeckShoulderPin,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckShoulderPin
-A_R18_NeckM3Nut,A_R18_NeckM3Nut,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckM3Nut
-A_R18_NeckRetainerM2Screw0,A_R18_NeckRetainerM2Screw0,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckRetainerM2Screw0
-A_R18_NeckRetainerM2Nut0,A_R18_NeckRetainerM2Nut0,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckRetainerM2Nut0
-A_R18_NeckRetainerM2Screw1,A_R18_NeckRetainerM2Screw1,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckRetainerM2Screw1
-A_R18_NeckRetainerM2Nut1,A_R18_NeckRetainerM2Nut1,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18_NeckRetainerM2Nut1
-A_R18C_RollBearing_L,A_R18C_RollBearing_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollBearing
-A_R18C_RollBearing_R,A_R18C_RollBearing_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollBearing_R
-A_R18C_RollIdler_L,A_R18C_RollIdler_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollIdler
-A_R18C_RollIdler_R,A_R18C_RollIdler_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollIdler_R
-A_R18C_RollClampScrew_L,A_R18C_RollClampScrew_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollClampScrew
-A_R18C_RollClampScrew_R,A_R18C_RollClampScrew_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollClampScrew_R
-A_R18C_RollClampNut_L,A_R18C_RollClampNut_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollClampNut
-A_R18C_RollClampNut_R,A_R18C_RollClampNut_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_RollClampNut_R
-A_R18C_PitchBearing_L,A_R18C_PitchBearing_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchBearing
-A_R18C_PitchBearing_R,A_R18C_PitchBearing_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchBearing_R
-A_R18C_PitchIdler_L,A_R18C_PitchIdler_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchIdler
-A_R18C_PitchIdler_R,A_R18C_PitchIdler_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchIdler_R
-A_R18C_PitchClampScrew_L,A_R18C_PitchClampScrew_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchClampScrew
-A_R18C_PitchClampScrew_R,A_R18C_PitchClampScrew_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchClampScrew_R
-A_R18C_PitchClampNut_L,A_R18C_PitchClampNut_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchClampNut
-A_R18C_PitchClampNut_R,A_R18C_PitchClampNut_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,R18C_PitchClampNut_R
-A_R20_RemovableRearBand,R20 removable rear colour band,printed,1,1,PLA initial fit test,CAD reference; fit unverified,RemovableRearBand
-band-screw--12,"Candidate M2 × 10 screw, head style unselected",additional hardware envelope,0,1,supplier unselected,provisional,not in source CAD
-band-washer--12,"Candidate 0.5 mm washer, outside diameter unselected",additional hardware envelope,0,1,supplier unselected,provisional,not in source CAD
-band-nut--12,"M2 nut candidate, supplier dimensions unselected",additional hardware envelope,0,1,supplier unselected,provisional,not in source CAD
-band-screw-12,"Candidate M2 × 10 screw, head style unselected",additional hardware envelope,0,1,supplier unselected,provisional,not in source CAD
-band-washer-12,"Candidate 0.5 mm washer, outside diameter unselected",additional hardware envelope,0,1,supplier unselected,provisional,not in source CAD
-band-nut-12,"M2 nut candidate, supplier dimensions unselected",additional hardware envelope,0,1,supplier unselected,provisional,not in source CAD
+A_Trunk,A_Trunk,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_Trunk
+A_Neck,A_Neck,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_Neck
+A_HeadPitch,A_HeadPitch,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_HeadPitch
+A_HeadYaw,A_HeadYaw,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_HeadYaw
+A_Yaw_L,A_Yaw_L,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_Yaw_L
+A_HipL_L,A_HipL_L,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_HipL_L
+A_Thigh_L,A_Thigh_L,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_Thigh_L
+A_HeadBase,A_HeadBase,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_O2_HeadBase
+A_Yaw_R,A_Yaw_R,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_Yaw_R
+A_HipL_R,A_HipL_R,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_HipL_R
+A_Thigh_R,A_Thigh_R,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_Thigh_R
+A_ref_servo_left_ankle,A_ref_servo_left_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_left_ankle
+A_ref_horn_left_ankle,A_ref_horn_left_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_left_ankle
+A_ref_servo_left_knee,A_ref_servo_left_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_left_knee
+A_ref_horn_left_knee,A_ref_horn_left_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_left_knee
+A_ref_servo_left_hip_pitch,A_ref_servo_left_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_left_hip_pitch
+A_ref_servo_left_hip_roll,A_ref_servo_left_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_left_hip_roll
+A_ref_horn_left_hip_roll,A_ref_horn_left_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_left_hip_roll
+A_ref_horn_left_hip_pitch,A_ref_horn_left_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_left_hip_pitch
+A_ref_servo_left_hip_yaw,A_ref_servo_left_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_left_hip_yaw
+A_ref_horn_left_hip_yaw,A_ref_horn_left_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_left_hip_yaw
+A_ref_servo_right_hip_yaw,A_ref_servo_right_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_right_hip_yaw
+A_ref_horn_right_hip_yaw,A_ref_horn_right_hip_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_right_hip_yaw
+A_ref_servo_neck_pitch,A_ref_servo_neck_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_neck_pitch
+A_ref_horn_neck_pitch,A_ref_horn_neck_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_neck_pitch
+A_ref_servo_head_pitch,A_ref_servo_head_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_head_pitch
+A_ref_horn_head_pitch,A_ref_horn_head_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_head_pitch
+A_ref_servo_head_yaw,A_ref_servo_head_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_head_yaw
+A_ref_horn_head_yaw,A_ref_horn_head_yaw,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_head_yaw
+A_ref_servo_head_roll,A_ref_servo_head_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_head_roll
+A_ref_horn_head_roll,A_ref_horn_head_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_head_roll
+A_ref_servo_mouth,A_ref_servo_mouth,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_mouth
+A_ref_horn_mouth,A_ref_horn_mouth,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_mouth
+A_ref_Radxa_PCB,A_ref_Radxa_PCB,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_Radxa_PCB
+A_ref_Radxa_GPIO,A_ref_Radxa_GPIO,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_Radxa_GPIO
+A_ref_HAT_PCB,A_ref_HAT_PCB,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_PCB
+A_ref_HAT_GPIO,A_ref_HAT_GPIO,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_GPIO
+A_ref_HAT_J1,A_ref_HAT_J1,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J1
+A_ref_HAT_J5,A_ref_HAT_J5,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J5
+A_ref_HAT_J14,A_ref_HAT_J14,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J14
+A_ref_HAT_J9,A_ref_HAT_J9,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J9
+A_ref_HAT_J6,A_ref_HAT_J6,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J6
+A_ref_HAT_J3,A_ref_HAT_J3,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J3
+A_ref_HAT_J7,A_ref_HAT_J7,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J7
+A_ref_HAT_J13,A_ref_HAT_J13,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J13
+A_ref_HAT_J8,A_ref_HAT_J8,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J8
+A_ref_HAT_J11,A_ref_HAT_J11,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J11
+A_ref_HAT_J2,A_ref_HAT_J2,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_J2
+A_ref_HAT_IMU,A_ref_HAT_IMU,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HAT_IMU
+A_ref_servo_right_hip_roll,A_ref_servo_right_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_right_hip_roll
+A_ref_horn_right_hip_roll,A_ref_horn_right_hip_roll,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_right_hip_roll
+A_ref_servo_right_hip_pitch,A_ref_servo_right_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_right_hip_pitch
+A_ref_horn_right_hip_pitch,A_ref_horn_right_hip_pitch,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_right_hip_pitch
+A_ref_servo_right_knee,A_ref_servo_right_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_right_knee
+A_ref_horn_right_knee,A_ref_horn_right_knee,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_right_knee
+A_ref_servo_right_ankle,A_ref_servo_right_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_servo_right_ankle
+A_ref_horn_right_ankle,A_ref_horn_right_ankle,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_horn_right_ankle
+A_ref_Battery_Provisional,A_ref_Battery_Provisional,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_Battery_Provisional
+A_ref_HeadIMU,A_ref_HeadIMU,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_HeadIMU
+A_ref_CameraLED,A_ref_CameraLED,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_CameraLED
+A_R17_HeadYawClampCap,A_R17_HeadYawClampCap,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_HeadYawClampCap
+A_R17_RollServoCradle,A_R17_RollServoCradle,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_RollServoCradle
+A_R17_RollCradleTopClamp,A_R17_RollCradleTopClamp,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_RollCradleTopClamp
+A_R17_MouthServoCradle,A_R17_MouthServoCradle,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_MouthServoCradle
+A_R17_MouthServoKeeper,A_R17_MouthServoKeeper,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_MouthServoKeeper
+A_R17_JawBearingTower,A_R17_JawBearingTower,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R17_JawBearingTower
+A_R17_JawBearingKeeper,A_R17_JawBearingKeeper,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R17_JawBearingKeeper
+A_R17_JawBearingPlug,A_R17_JawBearingPlug,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R17_JawBearingPlug
+A_ref_R17_JawBearing16x22x4,A_ref_R17_JawBearing16x22x4,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_JawBearing16x22x4
+A_ref_R17_FixedCarrierFasteners,A_ref_R17_FixedCarrierFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_FixedCarrierFasteners
+A_ref_R17_HeadModuleFasteners,A_ref_R17_HeadModuleFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_HeadModuleFasteners
+A_ref_R17_JawFasteners,A_ref_R17_JawFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_JawFasteners
+A_R18_NeckBearingRetainer,A_R18_NeckBearingRetainer,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckBearingRetainer
+A_R18_NeckBearing693,A_R18_NeckBearing693,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckBearing693
+A_R18_NeckSpacerOuter,A_R18_NeckSpacerOuter,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckSpacerOuter
+A_R18_NeckSpacerInner,A_R18_NeckSpacerInner,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckSpacerInner
+A_R18_NeckShoulderPin,A_R18_NeckShoulderPin,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckShoulderPin
+A_R18_NeckM3Nut,A_R18_NeckM3Nut,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckM3Nut
+A_R18_NeckRetainerM2Screw0,A_R18_NeckRetainerM2Screw0,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckRetainerM2Screw0
+A_R18_NeckRetainerM2Nut0,A_R18_NeckRetainerM2Nut0,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckRetainerM2Nut0
+A_R18_NeckRetainerM2Screw1,A_R18_NeckRetainerM2Screw1,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckRetainerM2Screw1
+A_R18_NeckRetainerM2Nut1,A_R18_NeckRetainerM2Nut1,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckRetainerM2Nut1
+A_R18C_RollBearing_L,A_R18C_RollBearing_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollBearing_L
+A_R18C_RollBearing_R,A_R18C_RollBearing_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollBearing_R
+A_R18C_RollIdler_L,A_R18C_RollIdler_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollIdler_L
+A_R18C_RollIdler_R,A_R18C_RollIdler_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollIdler_R
+A_R18C_RollClampScrew_L,A_R18C_RollClampScrew_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollClampScrew_L
+A_R18C_RollClampScrew_R,A_R18C_RollClampScrew_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollClampScrew_R
+A_R18C_RollClampNut_L,A_R18C_RollClampNut_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollClampNut_L
+A_R18C_RollClampNut_R,A_R18C_RollClampNut_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_RollClampNut_R
+A_R18C_PitchBearing_L,A_R18C_PitchBearing_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchBearing_L
+A_R18C_PitchBearing_R,A_R18C_PitchBearing_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchBearing_R
+A_R18C_PitchIdler_L,A_R18C_PitchIdler_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchIdler_L
+A_R18C_PitchIdler_R,A_R18C_PitchIdler_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchIdler_R
+A_R18C_PitchClampScrew_L,A_R18C_PitchClampScrew_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchClampScrew_L
+A_R18C_PitchClampScrew_R,A_R18C_PitchClampScrew_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchClampScrew_R
+A_R18C_PitchClampNut_L,A_R18C_PitchClampNut_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchClampNut_L
+A_R18C_PitchClampNut_R,A_R18C_PitchClampNut_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18C_PitchClampNut_R
+HelmetRoof,HelmetRoof,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,HelmetRoof
+HelmetLower,HelmetLower,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,HelmetLower
+CameraFace,CameraFace,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,CameraFace
+CameraBoard_R,CameraBoard_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,CameraBoard_R
+CameraLens_R,CameraLens_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,CameraLens_R
+CameraBoard_L,CameraBoard_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,CameraBoard_L
+CameraLens_L,CameraLens_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,CameraLens_L
+CameraCarrier,CameraCarrier,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,CameraCarrier
+Relocated_A_ref_ToFPCB,Relocated_A_ref_ToFPCB,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,Relocated_A_ref_ToFPCB
+Relocated_A_ref_ToFOptics,Relocated_A_ref_ToFOptics,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,Relocated_A_ref_ToFOptics
+AngularJaw,AngularJaw,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,AngularJaw
+TorsoFront,TorsoFront,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,TorsoFront
+TorsoRear,TorsoRear,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,TorsoRear
+PelvisFront,PelvisFront,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,PelvisFront
+PelvisRear,PelvisRear,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,PelvisRear
+ThighCap_L,ThighCap_L,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,ThighCap_L
+ThighCap_R,ThighCap_R,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,ThighCap_R
+ShankStructure_L,ShankStructure_L,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,ShankStructure_L
+ShinCap_L,ShinCap_L,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,ShinCap_L
+FacetedFoot_L,FacetedFoot_L,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,FacetedFoot_L
+FacetedSole_L,FacetedSole_L,printed,1,1,TPU 95A,CAD reference; fit unverified,FacetedSole_L
+ShankStructure_R,ShankStructure_R,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,ShankStructure_R
+ShinCap_R,ShinCap_R,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,ShinCap_R
+FacetedFoot_R,FacetedFoot_R,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,FacetedFoot_R
+FacetedSole_R,FacetedSole_R,printed,1,1,TPU 95A,CAD reference; fit unverified,FacetedSole_R
+FaceBezel,FaceBezel,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,FaceBezel
+OpticalRing_R,OpticalRing_R,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,OpticalRing_R
+OpticalRing_L,OpticalRing_L,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,OpticalRing_L
+HeadRim_L,HeadRim_L,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,HeadRim_L
+HeadRim_R,HeadRim_R,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,HeadRim_R
+JawSurround_R,JawSurround_R,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,JawSurround_R
+HardwarePivotWasher_R,HardwarePivotWasher_R,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,HardwarePivotWasher_R
+JawSurround_L,JawSurround_L,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,JawSurround_L
+HardwarePivotWasher_L,HardwarePivotWasher_L,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,HardwarePivotWasher_L
+RearHeadBumper,RearHeadBumper,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,RearHeadBumper
+TorsoAccent_Front_L,TorsoAccent_Front_L,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,TorsoAccent_Front_L
+TorsoAccent_Rear_L,TorsoAccent_Rear_L,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,TorsoAccent_Rear_L
+TorsoAccent_Front_R,TorsoAccent_Front_R,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,TorsoAccent_Front_R
+TorsoAccent_Rear_R,TorsoAccent_Rear_R,printed,1,1,"PLA, orange appearance",CAD reference; fit unverified,TorsoAccent_Rear_R
+HipCowl_L,HipCowl_L,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,HipCowl_L
+HipCowl_R,HipCowl_R,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,HipCowl_R
+ToeCap_L,ToeCap_L,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,ToeCap_L
+ToeCap_R,ToeCap_R,printed,1,1,"PLA, white appearance",CAD reference; fit unverified,ToeCap_R
