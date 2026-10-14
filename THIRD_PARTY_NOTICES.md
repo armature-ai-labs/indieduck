@@ -14,7 +14,6 @@ Complete installed package licence texts are retained in `assembly-guide/THIRD_P
 
 The assembly guide's visual assets come from the R25 source, `armature-ai-labs/indieduck-cad` commit `78db62ffe5a798b51ec3ec273897a377eec981f9` (release `r25-cad-study-v5`). R25 contains no geometry imported from XGO-Duck. The verbatim source notice follows. Geometry is for prototype study; licensing software does not relicense imported shapes.
 
-The historical R06 CAD and first-fit study in `hardware/mechanical/freecad/indieduck-r06/` predates R25 and carries its own source notices, including XGO-Duck notices, in `hardware/mechanical/freecad/indieduck-r06/provenance/NOTICE`. Those notices apply to that folder only.
 
 # Third-party notices and source attribution
 

@@ -15,7 +15,7 @@ R25 is the current CAD and simulation study: a reference-driven exterior on the 
 | [indieduck-rl](https://github.com/armature-ai-labs/indieduck-rl) | Canonical MuJoCo model, simulator and actual RL training/evaluation/export source |
 | [indieduck-runtime](https://github.com/armature-ai-labs/indieduck-runtime) | Robot-control source and revision-checked simulation adapter |
 
-![R25 assembled CAD](docs/verification/r25-assembly-cad.png)
+![R25 interactive assembly guide](docs/verification/assembly-r25.png)
 
 ## Build and contribute
 
@@ -39,13 +39,13 @@ npm run build
 
 Integrity checks do not establish physical performance. Simulator and runtime tests have separately documented scopes in their repositories.
 
-## Historical R06
+## Earlier studies
 
-The preserved [R06 CAD and first-fit study](hardware/mechanical/freecad/indieduck-r06/README.md) is historical, including its 33 printed parts, coupons and native files. It is not the current R20 robot or a source of current dimensions. Earlier assets remain unchanged for traceability.
+Earlier CAD studies, including the R06 first-fit study, are no longer on this branch. They remain available at the tag `r20-simulation-study-v1`, with their own source notices.
 
 ## Attribution and terms
 
-IndieDuck-authored software is Apache-2.0. This collection includes CAD-derived visual assets with distinct upstream terms, including reused XGO geometry whose redistribution terms remain unresolved. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source-specific notices; the software licence does not relicense those assets.
+IndieDuck-authored software is Apache-2.0. This collection includes CAD-derived visual assets with distinct upstream terms. The current R25 assets contain no XGO-Duck geometry. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source-specific notices; the software licence does not relicense those assets.
 
 ## Credits
 

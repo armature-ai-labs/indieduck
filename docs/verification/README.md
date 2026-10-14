@@ -1,6 +1,6 @@
 # Assembly guide verification
 
-**R25 (14 October 2026).** The guide now shows the R25 CAD (`indieduck-cad` release `r25-cad-study-v5`): 141 components, 51 printed. `npm test` passes 6 tests (inventory, mesh presence, pinned CAD links, step coverage for every component, checksums, labels) and the production build succeeds. The R20 removable head band and its provisional fasteners no longer exist. The R20 verification record below and its screenshots are kept for history; a browser screenshot of the R25 guide is still to be taken.
+**R25 (14 October 2026).** The guide now shows the R25 CAD (`indieduck-cad` release `r25-cad-study-v5`): 141 components, 51 printed. `npm test` passes 6 tests (inventory, mesh presence, pinned CAD links, step coverage for every component, checksums, labels) and the production build succeeds. The R20 removable head band and its provisional fasteners no longer exist. `assembly-r25.png` is a headless Chrome screenshot (SwiftShader WebGL, 1600 x 1000) of the production build served at its GitHub Pages path, with all 141 components loaded. The unused provisional-hardware control is hidden when there is no provisional hardware. The R20 verification record below and its screenshots are kept for history.
 
 ## R20 assembly guide verification (history)
 
