@@ -2,7 +2,7 @@
 
 **IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics’ MicroDuck.**
 
-R25 is the current CAD and simulation study: a reference-driven exterior on the R20 mechanism, with exact CAD throughout and no XGO-Duck geometry. Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
+R25 is the current design, designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/). Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
 
 - [Interactive assembly guide](https://armature-ai-labs.github.io/indieduck/): actual CAD, exploded views, component lookup, assembly steps and colour previews.
 - [Browser simulator](https://armature-ai-labs.github.io/indieduck-rl/): joint/pose exploration and a separate physics study.
@@ -45,14 +45,10 @@ Integrity checks do not establish physical performance. Simulator and runtime te
 - [docs/electronics/robot-hat.md](docs/electronics/robot-hat.md): the Robot HAT (servo bus, body IMU, audio, power) explained, with its connectors, chips, power path, how to order it assembled, and a bring-up checklist.
 - [hardware/electronics/pollen-rpi-robot-hat/](hardware/electronics/pollen-rpi-robot-hat/): Pollen Robotics' complete HAT rev D1 design (KiCad, schematic, Gerbers, BOM, placement), copied unmodified under Apache-2.0; source and commit in its UPSTREAM.md.
 
-## Earlier studies
-
-Earlier CAD studies, including the R06 first-fit study, are no longer on this branch. They remain available at the tag `r20-simulation-study-v1`, with their own source notices.
-
 ## Attribution and terms
 
-IndieDuck-authored software is Apache-2.0. This collection includes CAD-derived visual assets with distinct upstream terms. The current R25 assets contain no XGO-Duck geometry. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source-specific notices; the software licence does not relicense those assets.
+IndieDuck software is Apache-2.0. Some included assets carry their own upstream terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Credits
 
-[Zankar Savalia](https://www.linkedin.com/in/zankarvs/) contributed to the design of the R25 exterior and helped prepare it for publication. See [CONTRIBUTORS.md](CONTRIBUTORS.md).
+R25 was designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/). See [CONTRIBUTORS.md](CONTRIBUTORS.md).
