@@ -20,7 +20,7 @@ test('all components have guide coverage and physically verified claims absent',
  const groups=new Set(steps.steps.flatMap(s=>s.groups));for(const part of parts)assert.ok(groups.has(groupFor(part)),part.id);
  assert.ok(steps.steps.every(s=>['CAD-reviewed','provisional'].includes(s.status)));
  assert.equal(groupFor({id:'A_ref_CameraLens'}),'electronics');assert.equal(groupFor({id:'A_R18_NeckBearing693'}),'neck');
- assert.equal(groupFor({id:'HelmetRoof'}),'covers');assert.equal(groupFor({id:'ShinCap_L'}),'covers');assert.equal(groupFor({id:'CameraFace'}),'covers');assert.equal(groupFor({id:'A_HeadBase'}),'head');
+ assert.equal(groupFor({id:'HelmetRoof'}),'covers');assert.equal(groupFor({id:'ShinCap_L'}),'covers');assert.equal(groupFor({id:'CameraFace'}),'covers');assert.equal(groupFor({id:'A_HeadBase'}),'head');assert.equal(groupFor({id:'CameraCarrier',body:'head_roll_link'}),'head');assert.equal(groupFor({id:'CameraBoard_L',body:'head_roll_link'}),'electronics');assert.equal(groupFor({id:'A_ref_Battery_Provisional',body:'trunk_base'}),'electronics');assert.equal(groupFor({id:'A_ref_horn_head_pitch',body:'head_pitch_link'}),'neck');assert.equal(groupFor({id:'A_HeadPitch',body:'head_pitch_link'}),'neck');assert.equal(groupFor({id:'A_ref_servo_head_pitch',body:'neck_pitch_link'}),'neck');
 });
 test('hide/isolate/focus are reversible and independent of transforms',()=>{
  const p={id:'foot',group:'feet'};const s={hidden:[],isolated:null,focus:false,step:{groups:['feet']}};

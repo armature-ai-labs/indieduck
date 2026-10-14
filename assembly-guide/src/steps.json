@@ -89,8 +89,7 @@
       "id": "head",
       "title": "06 · Head base and direct-drive jaw",
       "groups": [
-        "head",
-        "electronics"
+        "head"
       ],
       "status": "provisional",
       "instruction": "Fit the R25 head base, which carries the roll and mouth servo cradles, the jaw bearing tower and the camera carrier. Fit the jaw on its bearing plug, with the jaw surrounds' pins in the horn-side holes; retain the pin and verify moving and fixed interfaces.",

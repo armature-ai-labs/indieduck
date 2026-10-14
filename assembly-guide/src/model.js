@@ -5,10 +5,11 @@ export function groupFor(p) {
   if (/band|shell|bodyfront|bodyback|eyering|o2_eye|twoeyeface|helmet|torso|pelvis|hipcowl|thighcap|shincap|toecap|facebezel|opticalring|headrim|rearheadbumper|cameraface/.test(s)) return 'covers';
   if (/foot|sole|ankle|roller|skate|wheel/.test(s)) return 'feet';
   if (/thigh|shank|knee/.test(s)) return 'legs';
+  if (/cameracarrier/.test(s)) return 'head';
   if (/radxa|hat|battery|regulator|power|imu|pcb|camera|tof|nfc|speaker|mic_|indicator/.test(s)) return 'electronics';
+  if (p.body === 'head_pitch_link') return 'neck';
   if (/neck/.test(s)) return 'neck';
   if (/mouth|jaw|head|beak|rollcradle|rollservo/.test(s)) return 'head';
-  if (/neck/.test(s)) return 'neck';
   return 'trunk';
 }
 export function explosionOffset(p, amount) {
