@@ -8,7 +8,7 @@ const steps=JSON.parse(fs.readFileSync(new URL('../src/steps.json',import.meta.u
 const parts=model.parts;
 test('complete pinned R25 inventory, printable export links and actual meshes',()=>{
  assert.equal(model.revision,'R25');assert.equal(parts.length,141);assert.equal(new Set(parts.map(p=>p.id)).size,141);
- const printed=parts.filter(p=>p.category==='printed');assert.equal(printed.length,51);
+ const printed=parts.filter(p=>p.category==='printed');assert.equal(printed.length,55);
  for(const part of parts){assert.ok(fs.existsSync(new URL('../public/model/'+part.mesh,import.meta.url)));assert.equal(part.source_commit,CAD_REV);assert.equal(part.color.length,3);}
  for(const part of printed){const links=componentLinks(part);assert.ok(links.native.includes(CAD_REV));assert.ok(links.step.endsWith('.step'));assert.ok(links.stl.endsWith('.stl'));}
 });

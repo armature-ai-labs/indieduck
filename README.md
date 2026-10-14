@@ -39,6 +39,12 @@ npm run build
 
 Integrity checks do not establish physical performance. Simulator and runtime tests have separately documented scopes in their repositories.
 
+## Bill of materials and electronics
+
+- [BOM.md](BOM.md) (and [bom.csv](bom.csv)): every part per robot, from servos, bearings and each screw size to boards, sensors, battery, cables and the 55 printed parts, each marked as counted from the CAD, derived, or still to confirm.
+- [docs/electronics/robot-hat.md](docs/electronics/robot-hat.md): the Robot HAT (servo bus, body IMU, audio, power) explained, with its connectors, chips, power path, how to order it assembled, and a bring-up checklist.
+- [hardware/electronics/pollen-rpi-robot-hat/](hardware/electronics/pollen-rpi-robot-hat/): Pollen Robotics' complete HAT rev D1 design (KiCad, schematic, Gerbers, BOM, placement), copied unmodified under Apache-2.0; source and commit in its UPSTREAM.md.
+
 ## Earlier studies
 
 Earlier CAD studies, including the R06 first-fit study, are no longer on this branch. They remain available at the tag `r20-simulation-study-v1`, with their own source notices.

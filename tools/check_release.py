@@ -40,8 +40,8 @@ def check():
         parts = model['parts']
         if len(parts) != 141 or len({p['id'] for p in parts}) != 141:
             errors.append('R25 guide must contain 141 distinct visible CAD components')
-        if sum(p['category'] == 'printed' for p in parts) != 51:
-            errors.append('R25 guide must identify 51 printed components')
+        if sum(p['category'] == 'printed' for p in parts) != 55:
+            errors.append('R25 guide must identify 55 printed components')
         for part in parts:
             path = guide / part['mesh']
             if not path.is_file():
@@ -83,7 +83,7 @@ def main():
     if errors:
         print('\n'.join(errors), file=sys.stderr)
         return 1
-    print(f'PASS: {len(inventory)} release files and the R25 guide inventory (141 components, 51 printed).')
+    print(f'PASS: {len(inventory)} release files and the R25 guide inventory (141 components, 55 printed).')
     print('Integrity only. Recorded CAD checks and physical tests have separate scopes.')
     return 0
 

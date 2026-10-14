@@ -10,6 +10,10 @@ The assembly guide is IndieDuck-authored software under Apache-2.0. Its CAD visu
 
 Complete installed package licence texts are retained in `assembly-guide/THIRD_PARTY_LICENSES.txt`. The committed lockfile records exact transitive dependencies.
 
+## Robot HAT electronics design
+
+`hardware/electronics/pollen-rpi-robot-hat/` is an unmodified copy of Pollen Robotics' RPI Robot HAT rev D1 (https://github.com/pollen-robotics/elec_RPI_Robot_HAT, commit `4478fdfb0d6c6766110776bfed44316884e94e52`), Copyright Pollen Robotics, licensed under the Apache License 2.0. Its LICENSE file is included in that folder. IndieDuck makes no modifications to these files.
+
 ## CAD-derived geometry
 
 The assembly guide's visual assets come from the R25 source, `armature-ai-labs/indieduck-cad` commit `78db62ffe5a798b51ec3ec273897a377eec981f9` (release `r25-cad-study-v5`). R25 contains no geometry imported from XGO-Duck. The verbatim source notice follows. Geometry is for prototype study; licensing software does not relicense imported shapes.

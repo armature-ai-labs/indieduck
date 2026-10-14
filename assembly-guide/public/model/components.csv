@@ -64,14 +64,14 @@ A_R17_RollServoCradle,A_R17_RollServoCradle,printed,1,1,"PLA, structural (dark a
 A_R17_RollCradleTopClamp,A_R17_RollCradleTopClamp,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_RollCradleTopClamp
 A_R17_MouthServoCradle,A_R17_MouthServoCradle,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_MouthServoCradle
 A_R17_MouthServoKeeper,A_R17_MouthServoKeeper,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_MouthServoKeeper
-A_R17_JawBearingTower,A_R17_JawBearingTower,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R17_JawBearingTower
-A_R17_JawBearingKeeper,A_R17_JawBearingKeeper,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R17_JawBearingKeeper
-A_R17_JawBearingPlug,A_R17_JawBearingPlug,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R17_JawBearingPlug
+A_R17_JawBearingTower,A_R17_JawBearingTower,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_JawBearingTower
+A_R17_JawBearingKeeper,A_R17_JawBearingKeeper,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_JawBearingKeeper
+A_R17_JawBearingPlug,A_R17_JawBearingPlug,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R17_JawBearingPlug
 A_ref_R17_JawBearing16x22x4,A_ref_R17_JawBearing16x22x4,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_JawBearing16x22x4
 A_ref_R17_FixedCarrierFasteners,A_ref_R17_FixedCarrierFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_FixedCarrierFasteners
 A_ref_R17_HeadModuleFasteners,A_ref_R17_HeadModuleFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_HeadModuleFasteners
 A_ref_R17_JawFasteners,A_ref_R17_JawFasteners,purchased,1,unresolved compound,"Purchased hardware envelope, material estimate",provisional,A_ref_R17_JawFasteners
-A_R18_NeckBearingRetainer,A_R18_NeckBearingRetainer,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckBearingRetainer
+A_R18_NeckBearingRetainer,A_R18_NeckBearingRetainer,printed,1,1,"PLA, structural (dark appearance)",CAD reference; fit unverified,A_R18_NeckBearingRetainer
 A_R18_NeckBearing693,A_R18_NeckBearing693,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckBearing693
 A_R18_NeckSpacerOuter,A_R18_NeckSpacerOuter,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckSpacerOuter
 A_R18_NeckSpacerInner,A_R18_NeckSpacerInner,purchased,1,reference only; confirm purchase quantity,"Purchased hardware envelope, material estimate",provisional,A_R18_NeckSpacerInner
