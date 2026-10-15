@@ -9,7 +9,7 @@ IndieDuck uses Pollen Robotics' **RPI Robot HAT, revision D1**, unmodified. The 
 The HAT plugs onto the Radxa Zero 3W's 40-pin header (it has the Raspberry Pi Zero footprint) and provides:
 
 - **Servo bus**: half-duplex TTL (Feetech and Dynamixel X style) and RS-485 ports.
-- **Body IMU**: an ST LSM6DSV16X on the board.
+- **Body IMU**: an ST LSM6DSV16X on the board (decision D19: no separate bus IMU board).
 - **Audio**: TLV320AIC3104 codec, a MEMS microphone on the board, a PAM8406 speaker amplifier, and screw terminals for a speaker and two extra microphones.
 - **Qwiic ports**: four 3.3 V I2C sockets for sensors (IndieDuck: head IMU and time-of-flight sensor).
 - **Power**: accepts 5 to 28 V through the motor connectors and makes 5 V for the Radxa.
@@ -80,7 +80,9 @@ Prices change with quantity and stock; get a live quote. An independent replica 
 ## IndieDuck adaptations (not changes to the board)
 
 - **Servo adapter leads**: the TTL ports are JST-EH (Dynamixel style); Feetech servos need short adapter leads.
-- **Three chains, two TTL ports**: one chain (left leg, right leg or head) must daisy-chain from another or use a splitter.
+- **Three chains, two TTL ports** (decision D20, open): IndieDuck has three servo chains (left leg 5, right leg 5, neck/head/mouth 5), and the HAT has two TTL sockets on one buffered bus. Two options, to be confirmed with the electrical engineers:
+  - **Option A, continue one chain off another.** For example, the head chain continues from the last servo of one leg chain. No extra parts. That leg's leads and connectors then carry the current of ten servos, and a fault in one lead takes down both chains.
+  - **Option B, a passive 3-way splitter.** Each chain gets its own lead from a small hub on one HAT socket. One more part, with current shared across three leads; the hub could also be where the separate 5 V servo supply joins the bus.
 - **Power**: separate 5 V servo converter and the Radxa power arrangement above.
 - **Software**: confirm the runtime's IMU driver supports the LSM6DSV16X at its I2C address before first power-up on the robot.
 

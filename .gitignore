@@ -12,3 +12,5 @@ node_modules/
 dist/
 .vite/
 test-results/
+# iCloud Drive conflict copies
+* 2.*

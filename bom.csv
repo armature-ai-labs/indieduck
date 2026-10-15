@@ -25,21 +25,20 @@ Electronics,Storage,"microSD card, 32 GB, A1 or better",1,Operating system if th
 Electronics,Power and bus board,"Pollen Robotics RPI Robot HAT rev D1, 65 x 30.9 mm, 4-layer 1.0 mm",1,"Servo bus (TTL and RS-485), body IMU, audio, Qwiic ports, logic 5 V",CAD,Not sold separately: order fabricated and assembled. Full design copied in hardware/electronics/pollen-rpi-robot-hat/; how to order and bring up: docs/electronics/robot-hat.md. Chip list below
 Electronics,GPIO header pair,"2 x 20, 2.54 mm (male on Radxa; the HAT's female header is in its BOM)",1,Radxa to HAT,CAD,
 Power,Servo supply (missing from the HAT),"5.0 V buck converter, 10 A or more continuous, input 6-8.4 V",1,Regulated 5.0 V servo rail for the 15 HD-1910s (decision D7),To confirm,The HAT's only regulator (AP63205) is 2 A for logic; size from bench current measurement
-Sensors,Body IMU,"LSM6DSV16X, on the HAT (U12)",1,Trunk orientation for the policy,CAD,Included in the HAT; no separate board needed
+Sensors,Body IMU,"LSM6DSV16X, on the HAT (U12)",1,Trunk orientation for the policy,CAD,Included in the HAT; decision D19: no separate bus IMU board
 Sensors,Head IMU,"LSM6DSV16X breakout with Qwiic (JST-SH 4-pin), envelope about 19 x 7.6 mm",1,Head orientation,CAD,Connects to a HAT Qwiic port
-Sensors,Camera,Raspberry Pi Camera v2-compatible (Sony IMX219) on the Radxa CSI port,1,Vision (one eye),To confirm,"R25 models two 32 x 32 mm camera boards; the Radxa has one CSI port. Decide: second eye cosmetic, or a second camera over USB"
-Sensors,Second camera (optional),"USB UVC camera module, 32 x 32 mm, M12 lens",1,"Second eye, only if stereo is wanted",To confirm,Uses the Radxa USB 3.0 port (500 mA limit)
+Sensors,Camera,Raspberry Pi Camera v2-compatible (Sony IMX219) on the Radxa CSI port,1,"Vision, in one eye",Decided,Decision D18: one camera; the other eye is cosmetic (no camera board fitted)
 Sensors,Time-of-flight depth sensor,ST VL53L8CX (or VL53L5CX) multizone module with Qwiic,1,Range sensing in the face,To confirm,Firmware-supported by the runtime lineage; I2C address 0x29
 Sensors,Microphone,"MEMS microphone, on the HAT (MK1)",1,Audio input,CAD,Included in the HAT
 Audio,Speaker,"Small 8 ohm, 1-2 W speaker",1,Audio output via the HAT's PAM8406 amplifier,To confirm,Optional; not modelled in R25 CAD
 Electronics,Indicator LED,2 mm LED with series resistor,1,Camera indicator,CAD,Driven from a GPIO
-Electronics,Bus IMU board (optional),"imu_to_dxl: STM32G031F8P6 + LSM6DSV16X + SN74LVC2G241, 45 x 22 mm",0,Not needed while the HAT's on-board IMU is used,To confirm,Decision D2 predates HAT rev D1's on-board IMU; revisit
 Power,Battery,"Sony NP-F550-type 2S Li-ion (7.4 V nominal), 70.8 x 38.6 x 20.6 mm",1,Main power,CAD (provisional),CAD envelope matches NP-F550; an NP-F970 will not fit
 Power,Battery plate,NP-F battery holder with contacts,1,Battery mounting and contacts,To confirm,Not modelled
 Power,Power switch,Inline switch rated for peak servo current,1,Main power,To confirm,Not on the HAT
 Power,Battery charger,NP-F (2S Li-ion) charger,1,Charging,To confirm,Not part of the robot
 Wiring,Servo bus cable,3-pin Feetech HD-series lead,15,"Three daisy chains: left leg 5, right leg 5, neck/head/mouth 5",Derived,"One per servo; many servos ship with one. Lengths about 100-150 mm (legs), 200-250 mm (head chain through the neck)"
-Wiring,Servo bus adapter,JST-EH 3-pin (HAT J13/J14) to Feetech 3-pin,3,HAT to the first servo of each chain,To confirm,"The HAT's TTL ports are Dynamixel-style JST-EH 2.5 mm; only two exist, so one chain needs a splitter or daisy-chains off another"
+Wiring,Servo bus adapter,JST-EH 3-pin (HAT J13/J14) to Feetech 3-pin,2,HAT to the first servo of two chains,To confirm,"Decision D20 (open): three chains, two TTL ports. Option A: the third chain continues off another chain. Option B: a 3-way splitter (next line). See docs/electronics/robot-hat.md"
+Wiring,3-way servo bus splitter (option B only),"Passive hub, Feetech 3-pin, rated for the servo current",1,Gives each of the three chains its own lead,To confirm,Only if option B is chosen under decision D20
 Wiring,Qwiic cable,"JST-SH 4-pin, about 250-300 mm",2,Head IMU and ToF sensor to HAT through the neck,To confirm,
 Wiring,Camera ribbon,"22-pin 0.5 mm to 15-pin 1.0 mm FFC, about 200-300 mm",1,Camera to Radxa through the neck,To confirm,Pi Zero-style camera cable
 Wiring,Battery and servo power leads,"Silicone wire, 18 AWG, with connectors",1,"Battery to switch, buck converter and HAT",To confirm,"The HAT takes power through its motor connectors (+BATT, 5-28 V); its screw terminals are audio only"

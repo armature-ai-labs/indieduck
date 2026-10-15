@@ -39,6 +39,10 @@ npm run build
 
 Integrity checks do not establish physical performance. Simulator and runtime tests have separately documented scopes in their repositories.
 
+## Training
+
+Policies train on Hugging Face Jobs, a rented GPU or a lab machine, all with the same code: see the [training guide](https://github.com/armature-ai-labs/indieduck-rl/blob/main/docs/TRAINING.md).
+
 ## Bill of materials and electronics
 
 - [BOM.md](BOM.md) (and [bom.csv](bom.csv)): every part per robot, from servos, bearings and each screw size to boards, sensors, battery, cables and the 55 printed parts, each marked as counted from the CAD, derived, or still to confirm.

@@ -52,7 +52,6 @@ Per robot, for the R25 design (`indieduck-cad` release `r25-cad-study-v6`). Elec
 | Power and bus board | Pollen Robotics RPI Robot HAT rev D1, 65 x 30.9 mm, 4-layer 1.0 mm | 1 | Servo bus (TTL and RS-485), body IMU, audio, Qwiic ports, logic 5 V | CAD | Not sold separately: order fabricated and assembled. Full design copied in hardware/electronics/pollen-rpi-robot-hat/; how to order and bring up: docs/electronics/robot-hat.md. Chip list below |
 | GPIO header pair | 2 x 20, 2.54 mm (male on Radxa; the HAT's female header is in its BOM) | 1 | Radxa to HAT | CAD |  |
 | Indicator LED | 2 mm LED with series resistor | 1 | Camera indicator | CAD | Driven from a GPIO |
-| Bus IMU board (optional) | imu_to_dxl: STM32G031F8P6 + LSM6DSV16X + SN74LVC2G241, 45 x 22 mm | 0 | Not needed while the HAT's on-board IMU is used | To confirm | Decision D2 predates HAT rev D1's on-board IMU; revisit |
 
 ## Power
 
@@ -68,10 +67,9 @@ Per robot, for the R25 design (`indieduck-cad` release `r25-cad-study-v6`). Elec
 
 | Item | Specification | Qty | Used for | Status | Notes |
 |---|---|---|---|---|---|
-| Body IMU | LSM6DSV16X, on the HAT (U12) | 1 | Trunk orientation for the policy | CAD | Included in the HAT; no separate board needed |
+| Body IMU | LSM6DSV16X, on the HAT (U12) | 1 | Trunk orientation for the policy | CAD | Included in the HAT; decision D19: no separate bus IMU board |
 | Head IMU | LSM6DSV16X breakout with Qwiic (JST-SH 4-pin), envelope about 19 x 7.6 mm | 1 | Head orientation | CAD | Connects to a HAT Qwiic port |
-| Camera | Raspberry Pi Camera v2-compatible (Sony IMX219) on the Radxa CSI port | 1 | Vision (one eye) | To confirm | R25 models two 32 x 32 mm camera boards; the Radxa has one CSI port. Decide: second eye cosmetic, or a second camera over USB |
-| Second camera (optional) | USB UVC camera module, 32 x 32 mm, M12 lens | 1 | Second eye, only if stereo is wanted | To confirm | Uses the Radxa USB 3.0 port (500 mA limit) |
+| Camera | Raspberry Pi Camera v2-compatible (Sony IMX219) on the Radxa CSI port | 1 | Vision, in one eye | Decided | Decision D18: one camera; the other eye is cosmetic (no camera board fitted) |
 | Time-of-flight depth sensor | ST VL53L8CX (or VL53L5CX) multizone module with Qwiic | 1 | Range sensing in the face | To confirm | Firmware-supported by the runtime lineage; I2C address 0x29 |
 | Microphone | MEMS microphone, on the HAT (MK1) | 1 | Audio input | CAD | Included in the HAT |
 
@@ -86,7 +84,8 @@ Per robot, for the R25 design (`indieduck-cad` release `r25-cad-study-v6`). Elec
 | Item | Specification | Qty | Used for | Status | Notes |
 |---|---|---|---|---|---|
 | Servo bus cable | 3-pin Feetech HD-series lead | 15 | Three daisy chains: left leg 5, right leg 5, neck/head/mouth 5 | Derived | One per servo; many servos ship with one. Lengths about 100-150 mm (legs), 200-250 mm (head chain through the neck) |
-| Servo bus adapter | JST-EH 3-pin (HAT J13/J14) to Feetech 3-pin | 3 | HAT to the first servo of each chain | To confirm | The HAT's TTL ports are Dynamixel-style JST-EH 2.5 mm; only two exist, so one chain needs a splitter or daisy-chains off another |
+| Servo bus adapter | JST-EH 3-pin (HAT J13/J14) to Feetech 3-pin | 2 | HAT to the first servo of two chains | To confirm | Decision D20 (open): three chains, two TTL ports. Option A: the third chain continues off another chain. Option B: a 3-way splitter (next line). See docs/electronics/robot-hat.md |
+| 3-way servo bus splitter (option B only) | Passive hub, Feetech 3-pin, rated for the servo current | 1 | Gives each of the three chains its own lead | To confirm | Only if option B is chosen under decision D20 |
 | Qwiic cable | JST-SH 4-pin, about 250-300 mm | 2 | Head IMU and ToF sensor to HAT through the neck | To confirm |  |
 | Camera ribbon | 22-pin 0.5 mm to 15-pin 1.0 mm FFC, about 200-300 mm | 1 | Camera to Radxa through the neck | To confirm | Pi Zero-style camera cable |
 | Battery and servo power leads | Silicone wire, 18 AWG, with connectors | 1 | Battery to switch, buck converter and HAT | To confirm | The HAT takes power through its motor connectors (+BATT, 5-28 V); its screw terminals are audio only |
@@ -131,7 +130,7 @@ From Pollen's production BOM (`ASE01187-D1`, 52 lines). Order the board assemble
 - Modelled fasteners: 28 M2 screws (12 x M2x8, 6 x M2x4, 2 x M2x6 pan, 4 x M2x6 socket, 2 x M2x8 socket, 2 x M2x12), 6 M2 nuts, 1 M3x16, 1 M3 shoulder screw, 1 M3 nut, 2 washers, 2 spacers.
 - Derived and to-confirm fasteners: up to 60 horn screws, up to 60 servo case screws, about 30 cover screws, 4 standoffs. Buying a stainless M2 assortment (4, 6, 8, 10, 12 mm) plus M2 nuts covers these.
 - Printed parts: 55, all listed with STEP and STL exports in `indieduck-cad` `COMPONENTS.csv`. Sliced so far: 39 parts on seven P2S plates, about 360 g PLA and 34 g TPU.
-- Electronics: Radxa Zero 3W, Robot HAT rev D1 (with body IMU, audio and Qwiic), 5 V servo supply, head IMU, camera, ToF sensor, LED, optional speaker and second camera, NP-F550 battery with plate, switch and charger.
-- Wires: 15 servo bus cables, 3 bus adapters, 2 Qwiic cables, camera ribbon, power, speaker and LED leads, cable management.
+- Electronics: Radxa Zero 3W, Robot HAT rev D1 (with body IMU, audio and Qwiic), 5 V servo supply, head IMU, one camera (D18), ToF sensor, LED, optional speaker, NP-F550 battery with plate, switch and charger.
+- Wires: 15 servo bus cables, 2 bus adapters (plus a splitter under option B), 2 Qwiic cables, camera ribbon, power, speaker and LED leads, cable management.
 
-Open items before a first full build: servo supply sizing (bench current measurement), one or two cameras, bus IMU board decision (D2), cover fastener counts, SBC standoffs, cable routing, battery plate. See the R25 limits in `indieduck-cad/README.md`.
+Open items before a first full build: servo supply sizing (bench current measurement), servo chain option (D20), cover fixings (most cover screw holes have no matching boss yet), SBC standoffs, cable routing, battery plate. See the R25 limits in `indieduck-cad/README.md`.
