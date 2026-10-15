@@ -2,7 +2,7 @@
 
 **IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics’ MicroDuck.**
 
-The current edition is **IndieDuck Cyber Edition**, designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/), on platform P1. IndieDuck is one shared mechanism with editions that give it different exteriors; see [EDITIONS.md](EDITIONS.md). Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
+The current edition is **IndieDuck Cyber Edition**, designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/), on platform P1. IndieDuck is one shared mechanism with editions that give it different exteriors; see [EDITIONS.md](EDITIONS.md). To design your own edition, follow [SUBMIT-AN-EDITION.md](SUBMIT-AN-EDITION.md). Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
 
 - [Interactive assembly guide](https://armature-ai-labs.github.io/indieduck/): actual CAD, exploded views, component lookup, assembly steps and colour previews.
 - [Browser simulator](https://armature-ai-labs.github.io/indieduck-rl/): joint/pose exploration and a separate physics study.

@@ -21,9 +21,6 @@ IndieDuck is one shared mechanism, the **platform**, with **editions** that give
 
 ## Proposing an edition
 
-1. Read the platform rules: [PLATFORM.md](https://github.com/armature-ai-labs/indieduck-cad/blob/main/platform/PLATFORM.md). An edition changes only the exterior and leaves the platform's parts unchanged.
-2. Model the exterior around the platform in FreeCAD, starting from Cyber Edition's assembly.
-3. Open a pull request adding `editions/<your-edition>/` to [indieduck-cad](https://github.com/armature-ai-labs/indieduck-cad), with an `edition.yaml` modelled on [Cyber's](https://github.com/armature-ai-labs/indieduck-cad/blob/main/editions/cyber/edition.yaml), your FreeCAD source and STEP/STL exports.
-4. The maintainers run the joint sweeps and clearance checks, record the edition's ranges, then generate its simulator model and training task.
+The full step-by-step guide is [SUBMIT-AN-EDITION.md](SUBMIT-AN-EDITION.md): propose it in an issue, design the exterior in FreeCAD around platform P1, export and describe it, then open a pull request to `indieduck-cad`. The maintainers verify it and move it up the maturity levels.
 
 Submission templates, automatic checks and a web form for designers who do not use GitHub are planned next.
