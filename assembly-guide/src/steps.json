@@ -15,7 +15,7 @@
         "covers"
       ],
       "status": "CAD-reviewed",
-      "instruction": "Compare the complete R25 robot before assembly. The standing pose and part placements come from the published FreeCAD assembly (release r25-cad-study-v5).",
+      "instruction": "Compare the complete IndieDuck Cyber Edition before assembly. The standing pose and part placements come from the published FreeCAD assembly.",
       "tools": "Parts list and inspection light",
       "inspect": "Match each part ID to the BOM. Inspect print quality and interfaces before installing hardware.",
       "limits": "Exploded separation illustrates access; it is not a collision-validated insertion path."
@@ -92,10 +92,10 @@
         "head"
       ],
       "status": "provisional",
-      "instruction": "Fit the R25 head base, which carries the roll and mouth servo cradles, the jaw bearing tower and the camera carrier. Fit the jaw on its bearing plug, with the jaw surrounds' pins in the horn-side holes; retain the pin and verify moving and fixed interfaces.",
+      "instruction": "Fit the head base, which carries the roll and mouth servo cradles, the jaw bearing tower and the camera carrier. Fit the jaw on its bearing plug, with the jaw surrounds' pins in the horn-side holes; retain the pin and verify moving and fixed interfaces.",
       "tools": "Matching driver; caliper; 40 mm test ball",
       "inspect": "Inspect hinge seating and screw access, then manually check closed, 15° and 30° jaw positions against the CAD study.",
-      "limits": "R25 direct-drive mechanism. The jaw clears the head base through 0 to 30 degrees in CAD; grip force and jaw travel require physical checks."
+      "limits": "Platform P1 direct-drive mechanism. The jaw clears the head base through 0 to 30 degrees in CAD; grip force and jaw travel require physical checks."
     },
     {
       "id": "wiring",
@@ -145,5 +145,6 @@
       "inspect": "Log revision, material, print settings, fastener substitutions and measured clearances. Report each change with photographs.",
       "limits": "No step is physically verified yet. This guide does not certify structural strength, electrical safety or learned motion."
     }
-  ]
+  ],
+  "edition": "cyber"
 }

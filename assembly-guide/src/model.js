@@ -1,5 +1,5 @@
 export const CAD = 'https://github.com/armature-ai-labs/indieduck-cad';
-export const CAD_REV='a576c2224629b6f1cd399d1a8e0891575eadb6b2';
+export const CAD_REV='ca9d688be0dd50d57666358f345d7acf01a5f2a5';
 export function groupFor(p) {
   const s = `${p.id} ${p.body} ${p.label}`.toLowerCase();
   if (/band|shell|bodyfront|bodyback|eyering|o2_eye|twoeyeface|helmet|torso|pelvis|hipcowl|thighcap|shincap|toecap|facebezel|opticalring|headrim|rearheadbumper|cameraface/.test(s)) return 'covers';
@@ -24,7 +24,7 @@ export function componentLinks(p) {
   const root = `${CAD}/blob/${CAD_REV}/`;
   const raw = `${CAD}/raw/${CAD_REV}/`;
   return {
-    native: p.native_file ? root+'native/robot/'+p.native_file.split('/').pop() : null,
+    native: p.native ? root+p.native : null,
     step: p.step ? raw+p.step : null,
     stl: p.stl ? raw+p.stl : null,
     bom: '/indieduck/model/components.csv',

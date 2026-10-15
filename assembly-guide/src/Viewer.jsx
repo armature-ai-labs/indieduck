@@ -84,5 +84,5 @@ export default function Viewer({parts, state, onSelect, onReady, view, resetKey}
   },[state,progress]);
   useEffect(()=>{const v=sceneRef.current;if(!v)return;if(view==='Fit visible')v.fitVisible();else {v.setView(view);if(v.diagnostics.ready)v.fitVisible();}},[view,resetKey]);
   useEffect(()=>{if(progress===parts.length)sceneRef.current?.fitVisible();},[state.explosion,state.focus,state.isolated,state.hidden,state.step.id,progress]);
-  return <div className="canvas-host" ref={host} aria-label="Interactive R25 CAD assembly">{progress<parts.length&&!error&&<div className="loading" role="status"><strong>Loading R25 CAD</strong><span>{progress} / {parts.length} components</span></div>}{error&&<div className="loading" role="alert">Unable to load CAD: {error}</div>}</div>;
+  return <div className="canvas-host" ref={host} aria-label="Interactive Cyber Edition CAD assembly">{progress<parts.length&&!error&&<div className="loading" role="status"><strong>Loading Cyber Edition CAD</strong><span>{progress} / {parts.length} components</span></div>}{error&&<div className="loading" role="alert">Unable to load CAD: {error}</div>}</div>;
 }

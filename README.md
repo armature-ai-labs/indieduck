@@ -2,7 +2,7 @@
 
 **IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics’ MicroDuck.**
 
-R25 is the current design, designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/). Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
+The current edition is **IndieDuck Cyber Edition**, designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/), on platform P1. IndieDuck is one shared mechanism with editions that give it different exteriors; see [EDITIONS.md](EDITIONS.md). Explore the robot, inspect its components and improve the build together. Physical assembly, strength, wiring and trained locomotion remain unverified.
 
 - [Interactive assembly guide](https://armature-ai-labs.github.io/indieduck/): actual CAD, exploded views, component lookup, assembly steps and colour previews.
 - [Browser simulator](https://armature-ai-labs.github.io/indieduck-rl/): joint/pose exploration and a separate physics study.
@@ -15,7 +15,7 @@ R25 is the current design, designed by [Zankar Savalia](https://www.linkedin.com
 | [indieduck-rl](https://github.com/armature-ai-labs/indieduck-rl) | Canonical MuJoCo model, simulator and actual RL training/evaluation/export source |
 | [indieduck-runtime](https://github.com/armature-ai-labs/indieduck-runtime) | Robot-control source and revision-checked simulation adapter |
 
-![R25 interactive assembly guide](docs/verification/assembly-r25.png)
+![IndieDuck Cyber Edition interactive assembly guide](docs/verification/assembly-r25.png)
 
 ## Build and contribute
 
@@ -55,4 +55,4 @@ IndieDuck software is Apache-2.0. Some included assets carry their own upstream 
 
 ## Credits
 
-R25 was designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/). See [CONTRIBUTORS.md](CONTRIBUTORS.md).
+IndieDuck Cyber Edition (design R25) was designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/). See [CONTRIBUTORS.md](CONTRIBUTORS.md).

@@ -1,6 +1,6 @@
-# IndieDuck R25 bill of materials
+# IndieDuck Cyber Edition bill of materials
 
-Per robot, for the R25 design (`indieduck-cad` release `r25-cad-study-v6`). Electronics detail and how to make the Robot HAT: [docs/electronics/robot-hat.md](docs/electronics/robot-hat.md); its full design files are in [hardware/electronics/pollen-rpi-robot-hat/](hardware/electronics/pollen-rpi-robot-hat/). **Status**: *CAD* means modelled and counted in the R25 assembly; *Derived* means from the design's interface rules but not individually modelled; *To confirm* means not yet specified. Nothing here is physically verified.
+Per robot, for IndieDuck Cyber Edition on platform P1 (design R25). Printed parts split into platform P1 (27) and the Cyber exterior (28) in `indieduck-cad` `COMPONENTS.csv`. Electronics detail and how to make the Robot HAT: [docs/electronics/robot-hat.md](docs/electronics/robot-hat.md); its full design files are in [hardware/electronics/pollen-rpi-robot-hat/](hardware/electronics/pollen-rpi-robot-hat/). **Status**: *CAD* means modelled and counted in the R25 assembly; *Derived* means from the design's interface rules but not individually modelled; *To confirm* means not yet specified. Nothing here is physically verified.
 
 ## Actuators
 
