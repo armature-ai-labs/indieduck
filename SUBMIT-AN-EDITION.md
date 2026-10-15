@@ -114,6 +114,16 @@ If any of your geometry comes from someone else's work, list its source and lice
 
 ## 6. Check before you submit
 
+Run the verifier from the root of your `indieduck-cad` clone. It is the same check the maintainers run:
+
+```
+EDITION=<id> /Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd tools/edition_verify.py
+```
+
+(On Linux or Windows, use your FreeCAD installation's `freecadcmd`.) It checks your `edition.yaml` and `COMPONENTS.csv` rows, confirms the platform parts are unchanged, checks every exterior part and its exports, looks for overlaps at the standing pose, then sweeps every joint in 2 degree steps and compares its clear range with the platform's verified range. Add `SKIP_SWEEPS=1` for a quick run (about a minute) while you work; the full run takes about 12 minutes. It prints one line per check and joint and ends with `RESULT PASS`, `ATTENTION` (a joint range is reduced, and the line names the parts that touch) or `FAIL`, and writes `editions/<id>/validation/edition-verify.json`. Commit that report with your submission. Cyber Edition's own report ends with `ATTENTION`, for its known mouth issue.
+
+Then confirm:
+
 - [ ] Platform parts unchanged and in place
 - [ ] Every new part has a `MovingBody` and passes *Check Geometry*
 - [ ] 1 mm clearance from moving parts at the standing pose
@@ -121,6 +131,7 @@ If any of your geometry comes from someone else's work, list its source and lice
 - [ ] `edition.yaml`, `COMPONENTS.csv` rows, previews
 - [ ] Your FreeCAD file opens on its own (no links to files outside the repository)
 - [ ] Third-party sources listed, or none used
+- [ ] `tools/edition_verify.py` ends with `RESULT PASS`, or every reduced range is explained in `edition.yaml`
 
 ## 7. Open a pull request
 

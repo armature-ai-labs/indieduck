@@ -1,6 +1,6 @@
 # IndieDuck editions
 
-IndieDuck is one shared mechanism, the **platform**, with **editions** that give it different exteriors. Every edition is a duck. A platform change or upgrade applies to every edition; each edition gets its own verified joint ranges, simulator model, training task and policies.
+IndieDuck is one shared mechanism, the **platform**, with **editions** that give it different exteriors. Every edition is a duck. A platform change or upgrade applies to every edition and gets a new platform number ([current platform: P1](platform/P1.yaml), [version history](platform/PLATFORM-CHANGELOG.md)); each edition gets its own verified joint ranges, simulator model, training task and policies.
 
 ## Catalog
 

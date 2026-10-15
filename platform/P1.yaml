@@ -1,0 +1,49 @@
+# IndieDuck platform P1: the mechanism, electronics and sensors every edition shares.
+# People refer to the platform by its number (P1). The subsystem versions below are the detail
+# behind it; any subsystem change makes a new platform version (see PLATFORM-CHANGELOG.md).
+
+platform: P1
+version: P1.0-preview          # becomes P1.0 when the first physical build passes its bench tests
+status: preview
+date: 2026-10-15
+editions: [cyber]              # editions verified on this platform
+
+mechanism:
+  version: M1
+  summary: 15 Feetech HD-1910 serial bus servos on the R20 joint chain, with the R17/R18 supports and the redrawn head base
+  joints: hip yaw, roll, pitch, knee and ankle per leg; neck pitch; head pitch, yaw and roll; mouth
+  joint_chain: indieduck-cad platform/P1-kinematics.json (joints, axes, standing pose, verified ranges)
+  printed_parts: 27, listed in indieduck-cad COMPONENTS.csv with scope = platform; exports in platform/exports/
+  bearings: 5 x 16x22x4 thin-section (hip roll, hip pitch, jaw), 1 x 693 (neck)
+  actuator_model: JoyandAI HD-1910 BAM m1, 5.0 V
+  status: CAD verified (every joint swept in 1 degree steps); not yet built
+
+electronics:
+  version: E1
+  summary: Radxa Zero 3W with the Pollen Robot HAT rev D1, separate 5 V servo supply, NP-F550 battery
+  computer: Radxa Zero 3W, 4 GB, eMMC
+  carrier_board: Pollen Robotics RPI Robot HAT rev D1 (design in hardware/electronics/pollen-rpi-robot-hat/)
+  servo_power: regulated 5.0 V converter, 10 A or more, size to be set by bench measurement
+  battery: Sony NP-F550-type 2S Li-ion with plate, switch and charger
+  servo_bus: three chains (left leg, right leg, neck/head/mouth); daisy-chain or splitter still open (decision D20)
+  status: designed; servo supply size and Radxa power arrangement need a bench test
+
+sensors:
+  version: S1
+  summary: body and head IMUs, one camera, a depth sensor and a microphone
+  body_imu: LSM6DSV16X on the HAT
+  head_imu: LSM6DSV16X breakout on a Qwiic port
+  camera: one Raspberry Pi Camera v2-compatible (IMX219) on the Radxa camera port; the second eye is cosmetic
+  depth: ST VL53L8CX (or VL53L5CX) on a Qwiic port
+  audio: MEMS microphone on the HAT; optional speaker on the HAT amplifier
+  status: chosen; not yet built or calibrated
+
+software:
+  runtime_contract: version 2 (indieduck-runtime); each edition supplies its own contract by model ID
+  policy_stamp: exported policies record the robot model, edition and contract; the runtime refuses a mismatch
+
+documents:
+  bill_of_materials: BOM.md
+  electronics_guide: docs/electronics/robot-hat.md
+  edition_rules: indieduck-cad platform/PLATFORM.md
+  changelog: platform/PLATFORM-CHANGELOG.md
