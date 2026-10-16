@@ -59,6 +59,7 @@ Open your copy of the assembly. It is the complete robot in its standing pose: p
 | Fix covers to **structure**, never to a servo body | Screws can't go into servo cases |
 | The jaw may be restyled, but must use the platform's jaw pivot, bearing and horn interface | So the mouth still works |
 | Walls of at least **2 mm**, 2.5 mm on the flat top of the head | The head top is load-bearing in the forward roll |
+| Colour accents are their own solids sitting exactly on their panel, printed with it in a second colour (IndieDuck assumes a multi-colour printer); never separate pieces fitted by hand | Small loose accents break or fall off |
 | Each part fits a **256 x 256 mm** print bed, and has a flat face to print on (or note how to print it) | So anyone can print it |
 | Aim for an exterior mass similar to Cyber's (28 parts, 164 cm3, about 204 g if printed solid) | Mass changes balance and the trained policies |
 
@@ -109,6 +110,7 @@ Then add one row per part to `COMPONENTS.csv`:
 | `step`, `stl` | The export paths |
 | `volume_mm3` | The part's volume (FreeCAD: select it, Python console `obj.Shape.Volume`) |
 | `scope`, `edition` | `edition` and your id |
+| `print_with` | For a colour accent, the panel it prints with; otherwise empty |
 
 If any of your geometry comes from someone else's work, list its source and licence in `THIRD_PARTY_NOTICES.md`. Only openly licensed sources compatible with Apache-2.0 can be accepted.
 
