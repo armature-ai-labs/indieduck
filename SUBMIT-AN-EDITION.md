@@ -124,6 +124,8 @@ EDITION=<id> /Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd tools/e
 
 (On Linux or Windows, use your FreeCAD installation's `freecadcmd`.) It checks your `edition.yaml` and `COMPONENTS.csv` rows, confirms the platform parts are unchanged, checks every exterior part and its exports, looks for overlaps at the standing pose, then sweeps every joint in 2 degree steps and compares its clear range with the platform's verified range. Add `SKIP_SWEEPS=1` for a quick run (about a minute) while you work; the full run takes about 12 minutes. It prints one line per check and joint and ends with `RESULT PASS`, `ATTENTION` (a joint range is reduced, and the line names the parts that touch) or `FAIL`, and writes `editions/<id>/validation/edition-verify.json`. Commit that report with your submission. Cyber Edition's own report ends with `RESULT PASS`.
 
+Also run `python3 tools/part_versions.py update --note "new edition: <name>"` so your parts get their first revision and appear in [PARTS-CHANGELOG.md](https://github.com/armature-ai-labs/indieduck-cad/blob/main/PARTS-CHANGELOG.md).
+
 Then confirm:
 
 - [ ] Platform parts unchanged and in place
