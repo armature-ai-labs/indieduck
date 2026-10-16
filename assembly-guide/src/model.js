@@ -1,5 +1,5 @@
 export const CAD = 'https://github.com/armature-ai-labs/indieduck-cad';
-export const CAD_REV='ca9d688be0dd50d57666358f345d7acf01a5f2a5';
+export const CAD_REV='249f104fcbf80c1ebf722953578b139771fdf575';
 export function groupFor(p) {
   const s = `${p.id} ${p.body} ${p.label}`.toLowerCase();
   if (/band|shell|bodyfront|bodyback|eyering|o2_eye|twoeyeface|helmet|torso|pelvis|hipcowl|thighcap|shincap|toecap|facebezel|opticalring|headrim|rearheadbumper|cameraface/.test(s)) return 'covers';
