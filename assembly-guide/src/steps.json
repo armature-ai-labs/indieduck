@@ -27,7 +27,7 @@
         "feet"
       ],
       "status": "provisional",
-      "instruction": "Pair each faceted foot with its TPU sole. Identify the ankle horn and opposite bearing support, then inspect the sole fixings and skate locating features. Toe caps fit with the covers in step 08.",
+      "instruction": "Pair each faceted foot with its TPU sole. Identify the ankle horn and opposite bearing support, then inspect the sole fixings and skate locating features. The toe cap is printed as one piece with the foot, in a second colour.",
       "tools": "Hex drivers matching selected fasteners; caliper",
       "inspect": "Check left/right orientation, bearing seating, free ankle motion and sole contact. Retain access to the skate latch and locator pins.",
       "limits": "Skate removal travel and the final axle/fastener stack need physical verification. No compatible purchased skate is implied."
@@ -122,7 +122,7 @@
         "feet"
       ],
       "status": "provisional",
-      "instruction": "After mechanism checks, fit the helmet (lower band, roof, rims, rear bumper), face bezel, camera face and optical rings; the torso and pelvis panels with their inlays; the hip cowls; and the thigh, shin and toe caps.",
+      "instruction": "After mechanism checks, fit the covers with M2 x 8 self-tapping screws into the printed posts. Several pieces are printed as one with their panel in a second colour: the face bezel and optical rings with the camera face, the head rims and rear bumper with the helmet lower, the stripes with the torso panels, and the toe caps with the feet. Fit the pelvis front before the torso front: hook its tongues up behind the torso front position, then fit the torso front over them and drive the two screws through the torso front into the tongue bosses. Then the helmet lower and roof, the camera face, the hip cowls, and the thigh and shin caps.",
       "tools": "Matching M2 driver; selected fasteners",
       "inspect": "Confirm tool access and removal without disturbing the head mechanism. Check that the camera optics remain unobstructed and that caps clear each joint through its range.",
       "limits": "Fastener lengths for cowls and caps are unconfirmed. The 1 mm optical rings and small torso inlays need a retention method. Print HelmetLower upside down on its flat top edge."

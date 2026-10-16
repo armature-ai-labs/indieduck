@@ -40,7 +40,7 @@ Per robot, for IndieDuck Cyber Edition on platform P1 (design R25). Printed part
 |---|---|---|---|---|---|
 | Self-tapping screw for horns | M2 x 6 (length per part thickness) | 60 | 4 per horn x 15 joints, into 1.7 mm pilots | Derived | From the horn interface (4 holes on 12 mm circle); verify count per link |
 | Servo case mounting screw | M2 x 8 (length per cradle wall) | 60 | Up to 4 per servo x 15 | Derived | Upper bound; R25 cradles may use fewer; confirm per cradle |
-| Cover and cap screws | M2 x 6, self-tapping | 30 | Hip cowls, thigh/shin/toe caps, torso and pelvis panels, helmet | To confirm | R25 open item: screw provisions aligned, lengths and counts unconfirmed; buy as part of an assortment |
+| Cover screws | M2 x 8, self-tapping | 34 | Torso front 2, torso rear 2, pelvis rear 2, pelvis front 2 (through the torso front), helmet roof 4, helmet lower 4, camera face 2, hip cowls 3 each, thigh caps 3 each, shin caps 2 each; into 1.7 mm pilots in printed posts | CAD | Decision D27; counts from the Cyber Edition CAD; buy as part of an M2 assortment |
 | M2.5 standoffs and screws | M2.5 x 11 standoffs with screws | 4 | Radxa Zero 3W and HAT stack | To confirm | Board supports not yet modelled |
 
 ## Electronics

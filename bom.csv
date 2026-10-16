@@ -18,7 +18,7 @@ Fasteners (modelled),Spacer,3.1 ID x 4.2 OD x 2.5 mm,1,"Neck pivot, outer",CAD,B
 Fasteners (modelled),Spacer,3.1 ID x 4.2 OD x 2.0 mm,1,"Neck pivot, inner",CAD,Brass or printed; not in the printed-parts list
 Fasteners (derived),Self-tapping screw for horns,M2 x 6 (length per part thickness),60,"4 per horn x 15 joints, into 1.7 mm pilots",Derived,From the horn interface (4 holes on 12 mm circle); verify count per link
 Fasteners (derived),Servo case mounting screw,M2 x 8 (length per cradle wall),60,Up to 4 per servo x 15,Derived,Upper bound; R25 cradles may use fewer; confirm per cradle
-Fasteners (derived),Cover and cap screws,"M2 x 6, self-tapping",30,"Hip cowls, thigh/shin/toe caps, torso and pelvis panels, helmet",To confirm,"R25 open item: screw provisions aligned, lengths and counts unconfirmed; buy as part of an assortment"
+Fasteners (derived),Cover screws,"M2 x 8, self-tapping",34,"Torso front 2, torso rear 2, pelvis rear 2, pelvis front 2 (through the torso front), helmet roof 4, helmet lower 4, camera face 2, hip cowls 3 each, thigh caps 3 each, shin caps 2 each; into 1.7 mm pilots in printed posts",CAD,Decision D27; counts from the Cyber Edition CAD; buy as part of an M2 assortment
 Fasteners (derived),M2.5 standoffs and screws,M2.5 x 11 standoffs with screws,4,Radxa Zero 3W and HAT stack,To confirm,Board supports not yet modelled
 Electronics,Single-board computer,"Radxa Zero 3W (Rockchip RK3566), 2 GB RAM or more, with eMMC preferred",1,"Runtime, policy inference, camera",CAD,"One 22-pin 0.5 mm 4-lane MIPI CSI connector, 1 x USB 3.0 host (500 mA), 1 x USB 2.0 OTG for power"
 Electronics,Storage,"microSD card, 32 GB, A1 or better",1,Operating system if the Radxa has no eMMC,To confirm,Not needed with an eMMC SKU
