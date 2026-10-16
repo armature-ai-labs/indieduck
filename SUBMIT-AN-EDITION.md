@@ -56,7 +56,7 @@ Open your copy of the assembly. It is the complete robot in its standing pose: p
 |---|---|
 | Leave at least **1 mm** between your parts and anything that moves relative to them | Joints sweep through nearby space; Cyber needed its covers trimmed to clear them |
 | Keep clear of the joints through these ranges: hip yaw -19 to 0 deg (left, mirrored right), hip roll -18 to 22, hip pitch -90 to 0, knee -85 to 46, ankle 0 to 78, neck -65 to +27.5, head pitch -35 to 85, head yaw +-90, head roll -25 to +11, jaw 0 to 30 | These are platform P1's verified ranges; an edition that reduces them must say so |
-| Fix covers to **structure**, never to a servo body | Screws can't go into servo cases |
+| Fix covers with **M2 self-tapping screws into posts on the platform** (5.5 mm posts, 1.7 mm pilot, 2.4 mm cover holes), never into a servo or the soft sole; a trim piece with nothing behind it prints with its neighbour | Screws can't go into servo cases, and loose trim falls off |
 | The jaw may be restyled, but must use the platform's jaw pivot, bearing and horn interface | So the mouth still works |
 | Walls of at least **2 mm**, 2.5 mm on the flat top of the head | The head top is load-bearing in the forward roll |
 | Colour accents are their own solids sitting exactly on their panel, printed with it in a second colour (IndieDuck assumes a multi-colour printer); never separate pieces fitted by hand | Small loose accents break or fall off |

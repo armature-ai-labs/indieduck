@@ -1,6 +1,6 @@
 {
   "revision": "R25",
-  "cad_source_commit": "249f104fcbf80c1ebf722953578b139771fdf575",
+  "cad_source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714",
   "units": "mm",
   "coordinates": "CAD world x forward, y left, z up; published standing pose (unchanged from R20)",
   "standing_pose": {
@@ -45,19 +45,35 @@
   },
   "registration_check": {
     "retained_parts": 97,
-    "max_bounds_difference_mm": 5.805826384235488,
+    "max_bounds_difference_mm": 23.53292330054819,
     "parts_over_0_05_mm": [
+      [
+        "A_Trunk",
+        7.210343692392229
+      ],
       [
         "A_HipL_L",
         5.805826384235488
+      ],
+      [
+        "A_Thigh_L",
+        2.6444633876375434
       ],
       [
         "A_HipL_R",
         5.805826384235488
       ],
       [
+        "A_Thigh_R",
+        2.644463387637515
+      ],
+      [
         "A_R17_RollServoCradle",
         1.9956239028054856
+      ],
+      [
+        "A_R17_JawBearingTower",
+        23.53292330054819
       ]
     ]
   },
@@ -82,27 +98,27 @@
       "stl": "platform/exports/stl/P1_Trunk.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 43946.85358719775,
+      "volume_mm3": 47073.24349878215,
       "center_of_mass_mm": [
-        -11.68236372603578,
-        0.5059877124928915,
-        124.11620112679243
+        -11.1917314859697,
+        0.17365074711286735,
+        125.56179158468159
       ],
       "bounds_mm": [
         [
-          -51.00012098785549,
-          -32.40323460662207,
+          -58.21046468024772,
+          -38.51681400532565,
           72.4466851543075
         ],
         [
-          53.04566372289907,
-          32.40323460662228,
-          164.4499640048008
+          57.86915643951921,
+          39.469936740415655,
+          167.22105281516116
         ]
       ],
-      "facets": 6758,
-      "source_sha256": "de8f90eb5f36e168ec89e57d17a8cda40beefb9dc1b239aaaef073e3a199b51c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 9262,
+      "source_sha256": "a02086419e0774f75a04c892c1051234e4da53a8a8f31addea2175708dfc1ccc",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_Neck",
@@ -144,7 +160,7 @@
       ],
       "facets": 2174,
       "source_sha256": "8560d0a0dd8a19843c380f915ec88a3827f91821e5fddfd89fc1b4c2b187998a",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_HeadPitch",
@@ -186,7 +202,7 @@
       ],
       "facets": 1816,
       "source_sha256": "abeb7ebc37a3e0bd86f108e7be4ae5aabe837049713903bb16c631c57f7dbd73",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_HeadYaw",
@@ -228,7 +244,7 @@
       ],
       "facets": 1410,
       "source_sha256": "4012c5b5e8e97d789accb7b3d3ff9543c33cd9558d3b9710a1ec5d3f5dc5fe69",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_Yaw_L",
@@ -270,7 +286,7 @@
       ],
       "facets": 1258,
       "source_sha256": "7a7c7fb00b491902044314691692059916d27b1130b91bf3f8357a6d7c6b80d8",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_HipL_L",
@@ -292,11 +308,11 @@
       "stl": "platform/exports/stl/P1_HipL_L.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 13782.85646732503,
+      "volume_mm3": 13870.46204169426,
       "center_of_mass_mm": [
-        22.714343437557613,
-        40.91249390751866,
-        103.47822971948797
+        22.84887015088449,
+        41.061030158301826,
+        103.46834362033003
       ],
       "bounds_mm": [
         [
@@ -305,14 +321,14 @@
           88.72243523129153
         ],
         [
-          44.00323460662203,
+          46.76279855933515,
           80.06355817491855,
           121.00000010000002
         ]
       ],
-      "facets": 3864,
-      "source_sha256": "d22c7842801ac08f6368cb4fa4bf1b91bdf7a91bc97bd80cbfc018e94386e7d7",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 4188,
+      "source_sha256": "6cef935022f83d0de35ea26f533dc9ab86fa827d6f3c0676ad64f79ce4194b9b",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_Thigh_L",
@@ -334,11 +350,11 @@
       "stl": "platform/exports/stl/P1_Thigh_L.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 12356.289740826562,
+      "volume_mm3": 12807.491931921231,
       "center_of_mass_mm": [
-        -10.043723359984362,
-        53.06533129791103,
-        83.38352982814824
+        -10.036277788459284,
+        53.554511632896485,
+        83.61139019186805
       ],
       "bounds_mm": [
         [
@@ -348,13 +364,13 @@
         ],
         [
           25.897135512560524,
-          69.58723425519545,
-          117.7399059490612
+          72.23169764283286,
+          117.73990594906127
         ]
       ],
-      "facets": 1634,
-      "source_sha256": "448ee3fe08430727b2508a000042589f6a139bb8fe4592bf3542fa19ac942af1",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2574,
+      "source_sha256": "406391aefbdd616309b546f0176e77fa5b8c47dbbb7a234a67106fe6d6a87107",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_HeadBase",
@@ -376,27 +392,27 @@
       "stl": "platform/exports/stl/P1_HeadBase.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 34077.49330300304,
+      "volume_mm3": 34794.9344099889,
       "center_of_mass_mm": [
-        43.51983691138248,
-        0.6217022873476871,
-        221.7230425927234
+        44.687738201348196,
+        0.6713805704164327,
+        221.94944931134
       ],
       "bounds_mm": [
         [
           -19.058952911265443,
           -44.07497939107535,
-          218.41899803409325
+          218.30829698801807
         ],
         [
-          96.50000010000136,
+          108.30981944024934,
           44.07497939107535,
-          232.90456646228998
+          235.45663428764635
         ]
       ],
-      "facets": 6070,
-      "source_sha256": "d2be855410035f1967e3efaa9a81503b43d0a170f7261b03615c44d95f78a4bf",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 4906,
+      "source_sha256": "c80efa2db5e4878207c83038ce1460621f7d69a5063b368cba9cd12bc2c7b3bb",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_Yaw_R",
@@ -438,7 +454,7 @@
       ],
       "facets": 1258,
       "source_sha256": "bc07fe42c4494ef281d452e26acb53ec4b63875ff55db30ef26c451cf6e7cc0a",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_HipL_R",
@@ -460,27 +476,27 @@
       "stl": "platform/exports/stl/P1_HipL_R.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 13782.85646732503,
+      "volume_mm3": 13870.462041694276,
       "center_of_mass_mm": [
-        22.714343437557588,
-        -40.912493907518645,
-        103.47822971948801
+        22.848870150884487,
+        -41.061030158301776,
+        103.46834362032996
       ],
       "bounds_mm": [
         [
-          -9.436415483868018,
+          -9.436415483868025,
           -80.06355817491858,
-          88.72243523129154
+          88.72243523129153
         ],
         [
-          44.00323460662203,
-          -0.05604830017095532,
+          46.76279855933515,
+          -0.05604830017094036,
           121.00000010000002
         ]
       ],
-      "facets": 3864,
-      "source_sha256": "83714f4c0ded2b12657b5cd8da556e03b353dcbd48c4db677a59a9252b70b2aa",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 4188,
+      "source_sha256": "91ff0775e93b392dfead0bd2ad41a9a249229714712ee4ee069d2dc05861494d",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_Thigh_R",
@@ -502,27 +518,27 @@
       "stl": "platform/exports/stl/P1_Thigh_R.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 12356.289740826565,
+      "volume_mm3": 12807.491931921237,
       "center_of_mass_mm": [
-        -10.04372335998449,
-        -53.06533129791093,
-        83.38352982814838
+        -10.03627778845929,
+        -53.554511632896464,
+        83.61139019186803
       ],
       "bounds_mm": [
         [
-          -39.94778379087815,
-          -69.58723425519526,
-          52.234326567546056
+          -39.947783790878255,
+          -72.23169764283286,
+          52.23432656754584
         ],
         [
-          25.89713551256025,
-          -31.834051039303393,
-          117.73990594906101
+          25.897135512560524,
+          -31.834051039303205,
+          117.73990594906122
         ]
       ],
-      "facets": 1634,
-      "source_sha256": "a65fedf26d57c6b60d11c9f4f2c8826b6ea633cce3fcb5f8a190f0da12b30b1d",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2574,
+      "source_sha256": "fb399939bae1e60b4aa59b3b497d0e4800543134a89bebee534067b3b370ae8a",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_left_ankle",
@@ -564,7 +580,7 @@
       ],
       "facets": 12,
       "source_sha256": "59584f519ea871877142ab83f7269e61e635c12c6327a5451f6a57388f6a8b9d",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_left_ankle",
@@ -606,7 +622,7 @@
       ],
       "facets": 140,
       "source_sha256": "e45b0befa212f6f7d6fdc4c1b7488fcf21a1c5809aa7d1a519154d69979cacd7",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_left_knee",
@@ -648,7 +664,7 @@
       ],
       "facets": 12,
       "source_sha256": "2bfb9c98a699ff7c1a758ba057b44eba31ce1f502c687a5aaf578539ea9e55ef",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_left_knee",
@@ -690,7 +706,7 @@
       ],
       "facets": 140,
       "source_sha256": "9cac4adcc08e17efbee14d3760f6d9461e46d55517094ece93df548792a68bb6",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_left_hip_pitch",
@@ -732,7 +748,7 @@
       ],
       "facets": 12,
       "source_sha256": "05c31c0e6c433b64e504130427b49e2d9cd6ca886c19f80a4e9eb63a95be6a33",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_left_hip_roll",
@@ -774,7 +790,7 @@
       ],
       "facets": 12,
       "source_sha256": "eb2aa447879475d1b48d4dd15516c0efc93d7b98f5f24d0e351d94cf31e82de0",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_left_hip_roll",
@@ -816,7 +832,7 @@
       ],
       "facets": 140,
       "source_sha256": "49e79e1834579db6251691f25f652894428e9096c0c610ce826c66312525ecc9",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_left_hip_pitch",
@@ -858,7 +874,7 @@
       ],
       "facets": 140,
       "source_sha256": "e0832ced79a96e5d49434ea9e65888de02f8c88961148e384b33d10391986c07",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_left_hip_yaw",
@@ -900,7 +916,7 @@
       ],
       "facets": 12,
       "source_sha256": "194df980e83c3cd3f9abf0aefd76f347082ef2c1f98aaa77532d1d5347bc4eaf",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_left_hip_yaw",
@@ -942,7 +958,7 @@
       ],
       "facets": 140,
       "source_sha256": "7f29e2108fde21f04e63ef0cfe982b69bbc51fa649f7eb1d03685a7d598eb887",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_right_hip_yaw",
@@ -984,7 +1000,7 @@
       ],
       "facets": 12,
       "source_sha256": "2d281794439b90b5ad8030d93fc3e58ac4e92d3a9911b19fd5d44de30c9ea6cc",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_right_hip_yaw",
@@ -1026,7 +1042,7 @@
       ],
       "facets": 140,
       "source_sha256": "6befbb3078ee17f17a2785e69bde6da38811ae2656c4460b084d9f4fd3e66bf1",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_neck_pitch",
@@ -1068,7 +1084,7 @@
       ],
       "facets": 12,
       "source_sha256": "ceacc06d4f407217d1289b64dffc615b3e1a997abfb566dc9a8e7227ceb970f2",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_neck_pitch",
@@ -1110,7 +1126,7 @@
       ],
       "facets": 140,
       "source_sha256": "dfb6d434adc93bd1518ab0aace485730c5710783476cebb6acdcacd5da1c5cc6",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_head_pitch",
@@ -1152,7 +1168,7 @@
       ],
       "facets": 12,
       "source_sha256": "17e2c9f3c05f687f1bcd5c8c24f940fd8a5353ab81dc5bfd8de214664d170402",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_head_pitch",
@@ -1194,7 +1210,7 @@
       ],
       "facets": 140,
       "source_sha256": "66676517de99631812876185eee105511eed52234f74efc3b96bcd00b27b0ee1",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_head_yaw",
@@ -1236,7 +1252,7 @@
       ],
       "facets": 12,
       "source_sha256": "383cf0ebcf6744c4fdf17330599149edb0bb61458fae740d58a50cf68c24c60c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_head_yaw",
@@ -1278,7 +1294,7 @@
       ],
       "facets": 140,
       "source_sha256": "2838dccc116e4023f43e14536a1be79f676dc045daa152e631a1c2303010d6a5",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_head_roll",
@@ -1320,7 +1336,7 @@
       ],
       "facets": 12,
       "source_sha256": "e86113fde77f3bbf5533855b51db27a1ef10a56570ab90a0a33faddb9550b95d",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_head_roll",
@@ -1362,7 +1378,7 @@
       ],
       "facets": 140,
       "source_sha256": "376be66e8bd096a5e1ab02c61276f41321ddf6e7b53d28ad6a4582ce435280cf",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_mouth",
@@ -1404,7 +1420,7 @@
       ],
       "facets": 12,
       "source_sha256": "a186ef401ab832629f1335cc3375838445a6a13a501f327dea4fb24ef0f18652",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_mouth",
@@ -1446,7 +1462,7 @@
       ],
       "facets": 140,
       "source_sha256": "0e176cf6bb3544676a0669a9a34a8b1bf244e6df8909a9f728612b88d7c63041",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_Radxa_PCB",
@@ -1488,7 +1504,7 @@
       ],
       "facets": 604,
       "source_sha256": "1c248afef3d60e34b2f6118d5056e7fd7493ec10b86d3e297b7d0fdfd812ec44",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_Radxa_GPIO",
@@ -1530,7 +1546,7 @@
       ],
       "facets": 12,
       "source_sha256": "5f8fc686d6fef9bd316b9191f4a0336a56981cd7aae439edba86ea63c8e993e9",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_PCB",
@@ -1572,7 +1588,7 @@
       ],
       "facets": 604,
       "source_sha256": "fc97d9ae3dd3f8926e0749399e6af25357526d4682e8a392a571e9d68314c0ff",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_GPIO",
@@ -1614,7 +1630,7 @@
       ],
       "facets": 12,
       "source_sha256": "68adb5227199f89f230556573752dab916ea18b46fdac14c63c2b5f834ac6ad7",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J1",
@@ -1656,7 +1672,7 @@
       ],
       "facets": 12,
       "source_sha256": "75bcde1ebf1c95bfc4e0ded5bed12ae3ecd810ca1fd996c7081d54c07aa6376f",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J5",
@@ -1698,7 +1714,7 @@
       ],
       "facets": 12,
       "source_sha256": "f6c3a08d099b2d0fd2975d9775b291798a8b80f95c33aeced7f40ce968f5babf",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J14",
@@ -1740,7 +1756,7 @@
       ],
       "facets": 12,
       "source_sha256": "0473fe1b1f55132366537f52cf588cc5cf11a8de7297911798a74aed6d24f497",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J9",
@@ -1782,7 +1798,7 @@
       ],
       "facets": 12,
       "source_sha256": "0e3d6013bed84bfe622c869cd791c1c65a9710ff6edec239d72f42e59116fb83",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J6",
@@ -1824,7 +1840,7 @@
       ],
       "facets": 12,
       "source_sha256": "8a453cac9caf5634905183fd6e3a0728e57f2869089b1ff781e0452cc11fd07f",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J3",
@@ -1866,7 +1882,7 @@
       ],
       "facets": 12,
       "source_sha256": "0c95e7b9225f599f417f1ba526564f13975a9b591fa60b2503586d00827cc0fe",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J7",
@@ -1908,7 +1924,7 @@
       ],
       "facets": 12,
       "source_sha256": "54af24563a8e2e1b5de6ad30d03fd97145d92284b7467af0b2d3a3f5444f52d4",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J13",
@@ -1950,7 +1966,7 @@
       ],
       "facets": 12,
       "source_sha256": "4b81f9907c65a838841f43e940e762a269a8d8905e0dcbe90243eb0062fc2010",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J8",
@@ -1992,7 +2008,7 @@
       ],
       "facets": 12,
       "source_sha256": "4bf2eb41e101fedad92a5515d1619388a1292d0fe763df8f9e532d12a2137756",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J11",
@@ -2034,7 +2050,7 @@
       ],
       "facets": 12,
       "source_sha256": "c9893391673df06e9c1840e85394111486366fd7d4b3bef84e7e253a1aaf3ba4",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_J2",
@@ -2076,7 +2092,7 @@
       ],
       "facets": 12,
       "source_sha256": "e3c38808cfbbbbe0adab16b6c011d82946b497127ccdde9531d2f7fc50575aec",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HAT_IMU",
@@ -2118,7 +2134,7 @@
       ],
       "facets": 12,
       "source_sha256": "26412d5f33b27f58275c126821fe74c96d308fdb0250c3a0c72a7ba14db787b5",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_right_hip_roll",
@@ -2160,7 +2176,7 @@
       ],
       "facets": 12,
       "source_sha256": "a3c85c5ad4d6a3f23200aa6a346b93a9fa7dddb0207fae5fcf16601e694a5841",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_right_hip_roll",
@@ -2202,7 +2218,7 @@
       ],
       "facets": 140,
       "source_sha256": "a9fd572b6c93b72dfaa21437c454da87fddc4d1b8e86e26865e34b594ef78584",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_right_hip_pitch",
@@ -2244,7 +2260,7 @@
       ],
       "facets": 12,
       "source_sha256": "879864a72a81fcd17e589706c7450a41f2433df8348c4a1be8eb41ccf655ee6a",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_right_hip_pitch",
@@ -2286,7 +2302,7 @@
       ],
       "facets": 140,
       "source_sha256": "33b362b93ba272fd2a4c14dea5a8ee15520ce6d3fe5c530bdd63827e013a07c0",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_right_knee",
@@ -2328,7 +2344,7 @@
       ],
       "facets": 12,
       "source_sha256": "e0bd1af2717d727760e92e19eb1c14da2bb5d999e05e37da8d3c843b9cde775a",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_right_knee",
@@ -2370,7 +2386,7 @@
       ],
       "facets": 140,
       "source_sha256": "c5df82d509573b2715ac95b9c9b8dbfde0e545a54339a31ae3422fdcc5df3638",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_servo_right_ankle",
@@ -2412,7 +2428,7 @@
       ],
       "facets": 12,
       "source_sha256": "26deab71a2c6e690a7fe5535264a9cf80efb15156417f770e74bf69e788ee643",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_horn_right_ankle",
@@ -2454,7 +2470,7 @@
       ],
       "facets": 140,
       "source_sha256": "3867b47eac62a31a88ce4a364e80a7550b3688ca6677dd2c756d02b192027c3e",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_Battery_Provisional",
@@ -2496,7 +2512,7 @@
       ],
       "facets": 12,
       "source_sha256": "386b0c9d8e9905da2ec3cc656873c879711a77bdbffd11e2a9782eb89a2f2632",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_HeadIMU",
@@ -2538,7 +2554,7 @@
       ],
       "facets": 12,
       "source_sha256": "50699711ea76a854e4abfe95a0008432e357f9a61c54a767b146c99a13a1bcf3",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_CameraLED",
@@ -2580,7 +2596,7 @@
       ],
       "facets": 140,
       "source_sha256": "499d52f55c2c8f29523dae453b7d523fa5209ce1f2d3a21d97f06d753e9383c7",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_HeadYawClampCap",
@@ -2622,7 +2638,7 @@
       ],
       "facets": 616,
       "source_sha256": "b761dfc6dbc05b21a08873769d1db32e0029c4f2b47c31eb71873f4e408fc1cf",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_RollServoCradle",
@@ -2664,7 +2680,7 @@
       ],
       "facets": 1972,
       "source_sha256": "c67b9bc308e6412abf1055ae2e1e8e8114cf8d98a729534e28aabe2253ae2324",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_RollCradleTopClamp",
@@ -2706,7 +2722,7 @@
       ],
       "facets": 1144,
       "source_sha256": "ed9f41ac8ced4131237ebaf9888e600abd775b8b12b4f88931b054e92fa33cca",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_MouthServoCradle",
@@ -2748,7 +2764,7 @@
       ],
       "facets": 960,
       "source_sha256": "02e18225eb4b74de7335c3c40cd6fc39352b92fd15a9ac43d235d521380cf6f1",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_MouthServoKeeper",
@@ -2790,7 +2806,7 @@
       ],
       "facets": 344,
       "source_sha256": "6bbd347527eeabbf279303a73350ff231daee2712ea99c558b9450868a3052d5",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_JawBearingTower",
@@ -2812,27 +2828,27 @@
       "stl": "platform/exports/stl/P1_R17_JawBearingTower.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 2244.0511096061327,
+      "volume_mm3": 2786.8979288092896,
       "center_of_mass_mm": [
-        40.89999771118161,
-        -35.008758896713196,
-        232.6403415730707
+        40.0814162902966,
+        -35.41278615341502,
+        238.44353836922932
       ],
       "bounds_mm": [
         [
           15.89999761118108,
-          -39.10000010000052,
+          -39.86373586506188,
           223.4923532009842
         ],
         [
           65.89999781118212,
-          -31.651671029673142,
-          251.84497540641564
+          -31.639062770996212,
+          275.37789870696383
         ]
       ],
-      "facets": 1208,
-      "source_sha256": "e2789fec0c7af25c010813aa32dd02d29b1e0883383d65db644680b3628f9ed4",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 1532,
+      "source_sha256": "7496c8eb3a058ab46c18f656b4648a6e60c8f2f5cf8025689840503b4960efba",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_JawBearingKeeper",
@@ -2874,7 +2890,7 @@
       ],
       "facets": 756,
       "source_sha256": "65ddb5ca9dbae72ddbb74ee3f426942021ba5190d4193fa00ef9f6b60f38f9da",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R17_JawBearingPlug",
@@ -2916,7 +2932,7 @@
       ],
       "facets": 456,
       "source_sha256": "39367193efc8241efd835561687d0ee3d5a1c4282864a31fd4855d0cfaa7aad7",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_R17_JawBearing16x22x4",
@@ -2958,7 +2974,7 @@
       ],
       "facets": 288,
       "source_sha256": "a12ad3ca3f3a59c4ebe3838d08f838a76425924b6b18954fafb3b531d420ae8e",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_R17_FixedCarrierFasteners",
@@ -3000,7 +3016,7 @@
       ],
       "facets": 1136,
       "source_sha256": "49e1acbfbe932486d7b089a33a7633677ba63ed1a7e5b84a9e4f8814d251e43c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_R17_HeadModuleFasteners",
@@ -3042,7 +3058,7 @@
       ],
       "facets": 5112,
       "source_sha256": "ba3a03df1d888658da561a4513c9f69ce66ab7466c61d000ff1ca0f1290eece2",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_ref_R17_JawFasteners",
@@ -3084,7 +3100,7 @@
       ],
       "facets": 284,
       "source_sha256": "f729f45aa49b24330a8e7feeda3b3a96c610730b45bc5a8ce4fe1fcf3c32064c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckBearingRetainer",
@@ -3126,7 +3142,7 @@
       ],
       "facets": 564,
       "source_sha256": "f7aade0d66d8a4235a1fa0e32732bdebb58fae33c888a65d6a87901e251e9c2f",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckBearing693",
@@ -3168,7 +3184,7 @@
       ],
       "facets": 288,
       "source_sha256": "a4380dc9492018bb64632d7d8ba2e122ad82d920939a37075b593622efdbb372",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckSpacerOuter",
@@ -3210,7 +3226,7 @@
       ],
       "facets": 288,
       "source_sha256": "0b34655fe21509148e6afb09636ed018be2b97313807a773b0c9b93d394a475e",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckSpacerInner",
@@ -3252,7 +3268,7 @@
       ],
       "facets": 288,
       "source_sha256": "ce742374308a41d764e872a0253217ec566772db6e5768fc8d925745965c00ef",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckShoulderPin",
@@ -3294,7 +3310,7 @@
       ],
       "facets": 284,
       "source_sha256": "4ee024b80a248ec565df8e1d8a31621eca0541a86ebe6f7b2abb69c37184a878",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckM3Nut",
@@ -3336,7 +3352,7 @@
       ],
       "facets": 168,
       "source_sha256": "56c6b1d4a96e9a98cabbc17ef0cf8dd4e33ad341b1ae9c6ca41553f29a8195da",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckRetainerM2Screw0",
@@ -3378,7 +3394,7 @@
       ],
       "facets": 284,
       "source_sha256": "4e78254911f05f0bb49601d21d80a6ccc7bd43d9246b4f304fbc8136da63f5df",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckRetainerM2Nut0",
@@ -3420,7 +3436,7 @@
       ],
       "facets": 168,
       "source_sha256": "b70ea8a3eb66080f4bcec79411eb11c6498bd7c1b03ecb39351009ed8e8acb05",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckRetainerM2Screw1",
@@ -3462,7 +3478,7 @@
       ],
       "facets": 284,
       "source_sha256": "15bc28f75bf8ccb47a7fa67472ea01e1048850bed84af839c6023b0f69f7bafb",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18_NeckRetainerM2Nut1",
@@ -3504,7 +3520,7 @@
       ],
       "facets": 168,
       "source_sha256": "530d4341b0b9493a8281ac27843c2a77898a870a8afa8bd41200f4d9c20fa789",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollBearing_L",
@@ -3546,7 +3562,7 @@
       ],
       "facets": 288,
       "source_sha256": "bb4abe6707a00d724256128c1916bd1874fb97d950b3cd77cc997de5945078e3",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollBearing_R",
@@ -3588,7 +3604,7 @@
       ],
       "facets": 288,
       "source_sha256": "6aff35426d740331cad09bebfcad08845e9b5ca6b0ede88e6f61368fe0aded34",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollIdler_L",
@@ -3630,7 +3646,7 @@
       ],
       "facets": 140,
       "source_sha256": "f44d06750afe99cd7f0203f8a13b5ab5e3a64d0aa59ffedeb832315b82733126",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollIdler_R",
@@ -3672,7 +3688,7 @@
       ],
       "facets": 140,
       "source_sha256": "2b53f412eccd64bceb48b0ab7e5cbd1e12f590eb0581707aae39614da307a624",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollClampScrew_L",
@@ -3714,7 +3730,7 @@
       ],
       "facets": 284,
       "source_sha256": "f8fa7aae6c426d7afe0585cbd1c93b5912571c215577cb85533a874c1ee65dbb",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollClampScrew_R",
@@ -3756,7 +3772,7 @@
       ],
       "facets": 284,
       "source_sha256": "e668d3b95d9f03b5750ee18666a780ceb755e7af3d3a85bb6527d2109dcb79a8",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollClampNut_L",
@@ -3798,7 +3814,7 @@
       ],
       "facets": 168,
       "source_sha256": "d2175d8da38d2d6dd45d630240d91d5a70153ceb07f5bd71c8f360dc718a6318",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_RollClampNut_R",
@@ -3840,7 +3856,7 @@
       ],
       "facets": 168,
       "source_sha256": "5353fbecf557112bf5fb26d0d7751186bb37610b4650bc19c9c99db9097a9ecf",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchBearing_L",
@@ -3882,7 +3898,7 @@
       ],
       "facets": 288,
       "source_sha256": "6f213b5c3e60798ebe80dd314bd041b1a337e31faa07021b0b1b6739ac453a6a",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchBearing_R",
@@ -3924,7 +3940,7 @@
       ],
       "facets": 288,
       "source_sha256": "c0b50a5607161e6f833eacdcc4bc69d880d8ce81e6cfeb7b4178f64d8964dc7c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchIdler_L",
@@ -3966,7 +3982,7 @@
       ],
       "facets": 140,
       "source_sha256": "4e8100e296d6785574f81c1a9385e89c4ce2c6a5a20adecf164dce4c030367e5",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchIdler_R",
@@ -4008,7 +4024,7 @@
       ],
       "facets": 140,
       "source_sha256": "59dab75f39eada80dfce1e8b4cb45dca6b073da8e873b71d1bc675ad25d6f20f",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchClampScrew_L",
@@ -4050,7 +4066,7 @@
       ],
       "facets": 284,
       "source_sha256": "d2df3c70f7868c35ceef54925b30976cc7204b8c38eab82e4dec01d09c7d8637",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchClampScrew_R",
@@ -4092,7 +4108,7 @@
       ],
       "facets": 284,
       "source_sha256": "a2a3ed60b549829d14af85fbb1a8d9e3f5eeb3e5afea6fbd343bf8d932de4158",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchClampNut_L",
@@ -4134,7 +4150,7 @@
       ],
       "facets": 168,
       "source_sha256": "a4481c2bb534dc0a0100be9498a8dda66490788d3a0c96230ad1c2a94edef27d",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "A_R18C_PitchClampNut_R",
@@ -4176,7 +4192,7 @@
       ],
       "facets": 168,
       "source_sha256": "4eda8c5fdc24572d0c208185ece5e8e7f00268d2e2098ed6cf0153cd82a12471",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HelmetRoof",
@@ -4198,27 +4214,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_HelmetRoof.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 27945.55951277052,
+      "volume_mm3": 28034.050073021834,
       "center_of_mass_mm": [
-        44.81160753676978,
-        0.0001274878408148415,
-        276.1558203257307
+        44.81993617018726,
+        0.028468922363573526,
+        276.1272724999008
       ],
       "bounds_mm": [
         [
           -15.75381954444447,
-          -48.254152214802495,
+          -48.20584158436509,
           265.4799999
         ],
         [
-          109.48363646363636,
-          48.24831606288725,
-          284.3750001
+          108.47695202884894,
+          48.20586837732727,
+          284.47522742517197
         ]
       ],
-      "facets": 2280,
-      "source_sha256": "de0801aa9cfd78e0ff513faf3006b2017659f49846030700f7135f3b89f953b9",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2622,
+      "source_sha256": "9d1bb4c7de8c5b6fec97f618ec1126f654faa7b127d7909298f4f95ee2f01dd9",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HelmetLower",
@@ -4240,11 +4256,11 @@
       "stl": "editions/cyber/exports/stl/Cyber_HelmetLower.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 22892.445590904616,
+      "volume_mm3": 22936.268816613105,
       "center_of_mass_mm": [
-        24.734630372945908,
-        -1.610510701562574e-05,
-        251.82250255506284
+        24.730611026986928,
+        -0.047361767989343724,
+        251.83410900941968
       ],
       "bounds_mm": [
         [
@@ -4258,9 +4274,9 @@
           270.43333343333336
         ]
       ],
-      "facets": 2896,
-      "source_sha256": "95651a2cc0df971e693353bd1fa5ea94143cb680d3bebbd358131fd8180f8e21",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2638,
+      "source_sha256": "e43c94b4ae184a19c9807ff948b7add75a679bdd12cbeafde3ce395efb1703b5",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "CameraFace",
@@ -4282,27 +4298,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_CameraFace.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 7720.294782329587,
+      "volume_mm3": 7740.199913382736,
       "center_of_mass_mm": [
-        108.63056143045064,
-        -1.748180941214117e-15,
-        251.86833875572995
+        108.63254016171534,
+        -0.0077149678080251395,
+        251.9286051175757
       ],
       "bounds_mm": [
         [
           97.49999984999998,
-          -43.00000010000007,
-          229.99999989999992
+          -43.000000100000065,
+          229.99999989999995
         ],
         [
           110.55935868710303,
-          43.00000010000007,
+          43.000000100000065,
           275.0000001000001
         ]
       ],
-      "facets": 1172,
-      "source_sha256": "643cda98446520369aec89a16aca78ac67a596d69cc8f7c44a044bb5e0caf451",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 876,
+      "source_sha256": "ce501ed3fba4458d7acaabf1506eae859ecab6226f9eca1353cc42d853a37fd5",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "CameraBoard_R",
@@ -4344,7 +4360,7 @@
       ],
       "facets": 12,
       "source_sha256": "72a2b3abcc6d47fbf7cddfed34f9200cc8cf926b1ed9191721dec7d762de6059",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "CameraLens_R",
@@ -4386,7 +4402,7 @@
       ],
       "facets": 140,
       "source_sha256": "d096f057eefb90392b5e413fce28b3378c003e402b8faebc5b8a61f0679a1759",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "CameraBoard_L",
@@ -4428,7 +4444,7 @@
       ],
       "facets": 12,
       "source_sha256": "7b6901e59727c58f81af9636666c426bd356e7e48fe54a8adec6f4db60d23464",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "CameraLens_L",
@@ -4470,7 +4486,7 @@
       ],
       "facets": 140,
       "source_sha256": "11ec21cf0e8c00cf8be9365e931439e179b2a88bdf19e76662341ca51ac3d7a7",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "CameraCarrier",
@@ -4492,27 +4508,27 @@
       "stl": "platform/exports/stl/P1_CameraCarrier.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 5099.180219828857,
+      "volume_mm3": 6674.8381832738605,
       "center_of_mass_mm": [
-        86.3411168260364,
-        -2.8537754307603696e-15,
-        243.76089507549955
+        87.13076874428364,
+        -1.4556488076781031,
+        247.20646406232828
       ],
       "bounds_mm": [
         [
-          79.39999989999997,
-          -42.00323460662202,
+          78.23953531975229,
+          -43.34849510582949,
           232.89224838510697
         ],
         [
-          93.00000015000003,
-          42.00323460662202,
-          270.00000015
+          102.01453905753738,
+          43.89077601872847,
+          277.883191952975
         ]
       ],
-      "facets": 920,
-      "source_sha256": "d68b6f8b3d13964ce827c7469e0977d82a86254786aa053b1d57edd0295fd943",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2938,
+      "source_sha256": "3da7ae03aea93e4191885656a4584f8ef18f683c8fb76c9b25585882727ccb06",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "Relocated_A_ref_ToFPCB",
@@ -4554,7 +4570,7 @@
       ],
       "facets": 12,
       "source_sha256": "4c1903bcdf924455c7feb917f734702baa4e29a7d8be8ca04503ba23809d7f70",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "Relocated_A_ref_ToFOptics",
@@ -4596,7 +4612,7 @@
       ],
       "facets": 140,
       "source_sha256": "b6aa455d59b0e012962a3684c76a015dd44f2e41bdb272c551846208ea25b86d",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "AngularJaw",
@@ -4638,7 +4654,7 @@
       ],
       "facets": 3436,
       "source_sha256": "7b1414ea82431f29d9324c40691b87971964599fc1e404375f97c7776ad90c96",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "TorsoFront",
@@ -4660,11 +4676,11 @@
       "stl": "editions/cyber/exports/stl/Cyber_TorsoFront.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 19927.350804906113,
+      "volume_mm3": 19986.115964470348,
       "center_of_mass_mm": [
-        26.8664883086128,
-        1.3690344106393668,
-        162.03923783550155
+        26.82649516500746,
+        1.3594464324839772,
+        161.9533918313016
       ],
       "bounds_mm": [
         [
@@ -4678,9 +4694,9 @@
           181.5387423648515
         ]
       ],
-      "facets": 2088,
-      "source_sha256": "d08935acb8f6a6e8ea94ec953c8a683649186fe9d2caffccaa5b2f172cd64ab4",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2658,
+      "source_sha256": "418b3f1b6c9e5e2ca277702cbf12d8760debaaf3e616815e4108497830d38260",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "TorsoRear",
@@ -4702,27 +4718,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_TorsoRear.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 20533.034120006938,
+      "volume_mm3": 20589.175736902085,
       "center_of_mass_mm": [
-        -38.06970786855342,
-        2.262025510551292e-05,
-        163.2675014246774
+        -38.0233831104609,
+        -5.744038579403472e-05,
+        163.16440535503386
       ],
       "bounds_mm": [
         [
           -66.2000001,
-          -43.41421366237309,
-          132.67420803850564
+          -42.3554553134901,
+          132.6745020170385
         ],
         [
-          -7.387445753960393,
-          42.61255424603961,
+          -7.592564488490095,
+          42.4074355115099,
           183.4000001
         ]
       ],
-      "facets": 1654,
-      "source_sha256": "642820ffbd7ad2cc655689cc763e01d885d647f8e0bc270a733eebe98d00d808",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2006,
+      "source_sha256": "86a95438b68a48bb3128f135627efb3bf8d3566d0051ad25b61eeb540ffd25fa",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "PelvisFront",
@@ -4744,27 +4760,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_PelvisFront.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 8101.478063796831,
+      "volume_mm3": 8810.40022895357,
       "center_of_mass_mm": [
-        57.47187672396225,
-        3.191753484680999e-06,
-        110.333426560458
+        57.0503788040927,
+        0.04642587766549714,
+        112.09793281126889
       ],
       "bounds_mm": [
         [
-          53.905701046485035,
+          51.19999989999999,
           -43.09429893529211,
-          81.99999989999996
+          81.99999989999998
         ],
         [
-          59.01026626635082,
+          59.000000100000285,
           43.094298953514965,
-          139.05415344246993
+          141.50000010000002
         ]
       ],
-      "facets": 554,
-      "source_sha256": "180cafe19c0ee8dba71af8bae4fe023aa83a2817cf57bd42ae26d29fc4d55a34",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 648,
+      "source_sha256": "acbb6b07cf375d6bb4a55128aec5d29066ee867c5f7d33d9afa1c4e92bbfe01f",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "PelvisRear",
@@ -4786,11 +4802,11 @@
       "stl": "editions/cyber/exports/stl/Cyber_PelvisRear.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 9858.285641955921,
+      "volume_mm3": 9869.61408842411,
       "center_of_mass_mm": [
-        -58.035750650853544,
-        -1.861215636005632e-08,
-        109.78620135839112
+        -58.035169239029514,
+        -0.0066003895745905825,
+        109.86202131495372
       ],
       "bounds_mm": [
         [
@@ -4804,9 +4820,9 @@
           139.05415344246993
         ]
       ],
-      "facets": 592,
-      "source_sha256": "8db7374f44617210dfe332f56978f5d5f162fbe3e1d159404ca00a6f2ea2bdf0",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 1120,
+      "source_sha256": "a7b12f651513ddcfde8d9115f34a334362118e220d7669e02e3483a41f576a12",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ThighCap_L",
@@ -4828,27 +4844,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_ThighCap_L.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 6083.221182907293,
+      "volume_mm3": 6206.7004349300905,
       "center_of_mass_mm": [
-        -9.832680052980002,
-        72.51181840759959,
-        85.34824563416431
+        -9.90648381590567,
+        72.47301811626555,
+        85.3515666960086
       ],
       "bounds_mm": [
         [
           -47.247343888415614,
           57.54540719719802,
-          50.83582026487837
+          50.78815855306373
         ],
         [
           29.490226650853213,
           84.74668984559845,
-          121.19629733430705
+          119.83623617751721
         ]
       ],
-      "facets": 2586,
-      "source_sha256": "8ff4eeff4d50b8f9fa4a2c15026536b9950b85a5464bc6512a1dae73ffb90f1b",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2068,
+      "source_sha256": "ed51d174e155df3e495c6d6009c78d1658b08e44c4979a0c8b4614b90e61e7d2",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ThighCap_R",
@@ -4870,27 +4886,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_ThighCap_R.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 6085.688289099695,
+      "volume_mm3": 6206.700434930098,
       "center_of_mass_mm": [
-        -9.837197989717389,
-        -72.51021126740304,
-        85.34506232978262
+        -9.906483815905691,
+        -72.47301811626556,
+        85.35156669600866
       ],
       "bounds_mm": [
         [
-          -47.247343888415735,
-          -84.74668984559847,
-          50.83582026487839
+          -45.74734388841563,
+          -84.7466898455984,
+          50.78815855306372
         ],
         [
-          29.490226650853163,
-          -57.545407197197925,
-          119.69629733430709
+          29.490226650853177,
+          -59.045407197197996,
+          119.83623617751721
         ]
       ],
-      "facets": 3136,
-      "source_sha256": "1ea557e551d010ae2bc780feb0c03a8ff690b2121eb4e46258cc5f2d757f64a6",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2072,
+      "source_sha256": "01833c5ae1f66893e1fd70b0938c6c1e623edc01f691192f43a63c0d8053468b",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ShankStructure_L",
@@ -4912,11 +4928,11 @@
       "stl": "platform/exports/stl/P1_ShankStructure_L.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 11034.57360780682,
+      "volume_mm3": 11048.828584472487,
       "center_of_mass_mm": [
-        5.572486487707337,
-        37.78220193629416,
-        50.587804603937286
+        5.56348337129975,
+        37.80458066195845,
+        50.59063613956922
       ],
       "bounds_mm": [
         [
@@ -4926,13 +4942,13 @@
         ],
         [
           35.68666686860021,
-          59.06974572217572,
+          59.1217988103185,
           84.8739812833386
         ]
       ],
-      "facets": 2480,
-      "source_sha256": "a87ca563629163c11d9a96c1dd731fbc81832c3003635ed1da627c24195a2fba",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2786,
+      "source_sha256": "e059c769d898d85ee07db50a2234a4a9120bd2dffe520c6842d08cd48b4b83b0",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ShinCap_L",
@@ -4974,7 +4990,7 @@
       ],
       "facets": 854,
       "source_sha256": "f0a2b6a7ef38a5414ef421323851e555497672cab0146ec30a3cbf84f35dbe51",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "FacetedFoot_L",
@@ -5016,7 +5032,7 @@
       ],
       "facets": 3312,
       "source_sha256": "f2520da796d1f779f867a8aaa22140e6b7e5b76817526298b808ad16952a626b",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "FacetedSole_L",
@@ -5058,7 +5074,7 @@
       ],
       "facets": 1482,
       "source_sha256": "aa445ae9f7d883ba4678e6349cd5306f8e7a0067a94f1d53738b3af07c9f76f4",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ShankStructure_R",
@@ -5080,27 +5096,27 @@
       "stl": "platform/exports/stl/P1_ShankStructure_R.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 11034.203106944973,
+      "volume_mm3": 11048.8285844725,
       "center_of_mass_mm": [
-        5.573738062996931,
-        -37.7879898235893,
-        50.591667259720296
+        5.563483371299727,
+        -37.80458066195846,
+        50.59063613956922
       ],
       "bounds_mm": [
         [
-          -28.328799034150002,
-          -59.06974572217574,
-          21.596712522046634
+          -28.328799034150016,
+          -59.1217988103185,
+          21.59671252204657
         ],
         [
-          35.68666686860018,
-          -24.136629369087725,
-          84.8739812833386
+          35.686666868600255,
+          -24.1366293690877,
+          84.87398128333861
         ]
       ],
-      "facets": 3452,
-      "source_sha256": "7e350b370ebf92b3f934dc8acf09ae9c4933902e4df8c9bd263a49efff4e1e46",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 2786,
+      "source_sha256": "e713e4dc3fb94e049f9d5ae640824570c86a09d471003eaefd0be33aad10fbee",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ShinCap_R",
@@ -5122,27 +5138,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_ShinCap_R.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 670.1200835120579,
+      "volume_mm3": 669.9262528696411,
       "center_of_mass_mm": [
-        1.045314078889638,
-        -59.02237471855878,
-        52.615556096756926
+        1.0499219237498878,
+        -59.02345205252003,
+        52.61962327639234
       ],
       "bounds_mm": [
         [
-          -14.040567213554985,
-          -64.5314087142368,
-          35.14139435386323
+          -13.943006741495756,
+          -65.28140871423682,
+          35.14139238682921
         ],
         [
-          18.867780232590498,
-          -52.67985098005532,
-          65.12092756498977
+          19.61778023259051,
+          -52.67985044715898,
+          65.81885154573632
         ]
       ],
-      "facets": 1064,
-      "source_sha256": "c8a2c6ba4ce5ee5f885c085413ff784f82f7ef214ef5e86e4db7223157f08dd2",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 854,
+      "source_sha256": "f4008e43cb9a5e2ddba6406cb20603ce0a5f163f8cca22eb2620a805ec899423",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "FacetedFoot_R",
@@ -5184,7 +5200,7 @@
       ],
       "facets": 3326,
       "source_sha256": "e0a53e54cd0424401894e6b24979465b950e853e61bf05c90325cfff0d61e34a",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "FacetedSole_R",
@@ -5226,7 +5242,7 @@
       ],
       "facets": 1472,
       "source_sha256": "28122360c326b26e7c8df5210a098d59031274be89c1b30bdd59364ed3977564",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "FaceBezel",
@@ -5248,11 +5264,11 @@
       "stl": "editions/cyber/exports/stl/Cyber_FaceBezel.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 1622.9470787983983,
+      "volume_mm3": 1639.4551251415228,
       "center_of_mass_mm": [
-        111.37837267742225,
-        9.947047052465731e-15,
-        252.385034892253
+        111.37859044784956,
+        -2.303824200229741e-14,
+        252.55224778678019
       ],
       "bounds_mm": [
         [
@@ -5266,9 +5282,9 @@
           275.2500001
         ]
       ],
-      "facets": 256,
-      "source_sha256": "36d0904af86d5f274da4922ae41bdbca7f74b83d52cddc930bb552d3e48af247",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 192,
+      "source_sha256": "33d8d90c01b6ecad7d1236b1204cfe41e4a447f2a7d4ed55e393dbf939f10828",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "OpticalRing_R",
@@ -5310,7 +5326,7 @@
       ],
       "facets": 288,
       "source_sha256": "9fbb49639851d5a844a8623d311d1d7b6978454c3e8fc147779255cd66e2e34c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "OpticalRing_L",
@@ -5352,7 +5368,7 @@
       ],
       "facets": 288,
       "source_sha256": "228d2c18906641823cb09b3580d438be6ef03f70f42eea1d5ae019c5745a6f9f",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HeadRim_L",
@@ -5394,7 +5410,7 @@
       ],
       "facets": 230,
       "source_sha256": "4a700a51b28f5f6ff4a6e14474f7230678618e811f230e7ad2d8b399421a5fe3",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HeadRim_R",
@@ -5436,7 +5452,7 @@
       ],
       "facets": 226,
       "source_sha256": "a9421cd453fb4d639f808726372d3f87b0e24bbdd4215b824391cf23c7347d04",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "JawSurround_R",
@@ -5478,7 +5494,7 @@
       ],
       "facets": 442,
       "source_sha256": "fba68d0679528ae17bca6d37ac183404e506fa876bdc65790eda9ac9012f7bc5",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HardwarePivotWasher_R",
@@ -5520,7 +5536,7 @@
       ],
       "facets": 288,
       "source_sha256": "510b30adf962123fed3ad57f52b937c1e78eab415bc4e038a6b09d81d44be79b",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "JawSurround_L",
@@ -5562,7 +5578,7 @@
       ],
       "facets": 1950,
       "source_sha256": "6abd6c7cd1e1f56836181139417698a72df017b04a6480e46e5e1e08c5111f6c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HardwarePivotWasher_L",
@@ -5604,7 +5620,7 @@
       ],
       "facets": 288,
       "source_sha256": "6de79d44f1150232d98cf337f0564b5d36cec88fa26707768546e68d714d0403",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "RearHeadBumper",
@@ -5626,11 +5642,11 @@
       "stl": "editions/cyber/exports/stl/Cyber_RearHeadBumper.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 2907.5635156632607,
+      "volume_mm3": 2934.7068761902988,
       "center_of_mass_mm": [
-        -24.37418951535232,
-        4.0150744287738974e-13,
-        242.6093114510902
+        -24.37535314752637,
+        3.9818216073660463e-13,
+        242.60367587619695
       ],
       "bounds_mm": [
         [
@@ -5644,9 +5660,9 @@
           251.8750001
         ]
       ],
-      "facets": 392,
-      "source_sha256": "f08f64b0ab1ac5e6d3325ad07cba4a8a435ac160f83c01b4846cb237e9c5cc05",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 96,
+      "source_sha256": "625c7110810dff54c5fb9c40af482e5b7e6910ae1d52c750b0f22442ff8b0c5e",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "TorsoAccent_Front_L",
@@ -5688,7 +5704,7 @@
       ],
       "facets": 24,
       "source_sha256": "d94efb1902a9ffa2e552b437b80d174695f0d94cdfe6788812ec545d9cadffd8",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "TorsoAccent_Rear_L",
@@ -5730,7 +5746,7 @@
       ],
       "facets": 42,
       "source_sha256": "e3d95f573554ba84d96d8aa58aaa3c44e0d61913e9af3b6f4f85730503c37030",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "TorsoAccent_Front_R",
@@ -5772,7 +5788,7 @@
       ],
       "facets": 24,
       "source_sha256": "49dfd68e2510737cdd42c5ffccd7dba7499c87325e4281bc7bcc330b3318a650",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "TorsoAccent_Rear_R",
@@ -5814,7 +5830,7 @@
       ],
       "facets": 42,
       "source_sha256": "8d7ae0d75e77a55072c9cceacb804795ead776a7e6929c8b7248b113bf24ac79",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HipCowl_L",
@@ -5836,11 +5852,11 @@
       "stl": "editions/cyber/exports/stl/Cyber_HipCowl_L.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 3214.4350856587525,
+      "volume_mm3": 3209.187148787098,
       "center_of_mass_mm": [
-        47.287933006371084,
-        48.81011726946656,
-        108.48792271604383
+        47.292484807644016,
+        48.77932843315741,
+        108.49853228488135
       ],
       "bounds_mm": [
         [
@@ -5849,14 +5865,14 @@
           87.8531868904018
         ],
         [
-          49.2500001,
-          69.2500001,
+          49.27762304135502,
+          69.27762304135501,
           127.2500001
         ]
       ],
-      "facets": 742,
-      "source_sha256": "3a0e366199d1addb428b01e309ae794c53609c17b3007237cd3a17662c8572e6",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 844,
+      "source_sha256": "d84ccebef4911f71eebba02d04d227835ce5984b0d2efb4044291f9b97123268",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "HipCowl_R",
@@ -5878,27 +5894,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_HipCowl_R.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 3214.436482076723,
+      "volume_mm3": 3209.187148787099,
       "center_of_mass_mm": [
-        47.28793192279944,
-        -48.8101172984082,
-        108.48791628987637
+        47.292484807644,
+        -48.77932843315741,
+        108.4985322848813
       ],
       "bounds_mm": [
         [
           43.5384614384615,
-          -69.2500001,
-          87.85318631385012
+          -69.27762304135501,
+          87.8531868904018
         ],
         [
-          49.2500001,
+          49.27762304135502,
           -28.7499999,
           127.2500001
         ]
       ],
-      "facets": 830,
-      "source_sha256": "d5efb75169134c4632aa05a640efabb8bdd41beaaa0419d2527a95b0335b37e8",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 844,
+      "source_sha256": "9894418a50b839021114516291c7d6fc33c2658ddc50f52e6d057344c0566f74",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ToeCap_L",
@@ -5920,16 +5936,16 @@
       "stl": "editions/cyber/exports/stl/Cyber_ToeCap_L.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 2151.912410327694,
+      "volume_mm3": 2217.05648501495,
       "center_of_mass_mm": [
-        37.90411480560887,
-        51.82031907637644,
-        25.916234549145905
+        37.857170326518045,
+        51.807224524099524,
+        25.90694258539172
       ],
       "bounds_mm": [
         [
-          17.67641586927845,
-          29.273849257582224,
+          17.676380804294272,
+          29.273774637964873,
           15.999999900000022
         ],
         [
@@ -5938,9 +5954,9 @@
           29.206469113244054
         ]
       ],
-      "facets": 2054,
-      "source_sha256": "f435189be56b0156b45c557e6b953e811c4cc1d311f59f8fbf55c2cf0d54433c",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 1194,
+      "source_sha256": "f29d68931a975848133ce247a853d51833dfb28093f722be9665796d83bccc11",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     },
     {
       "id": "ToeCap_R",
@@ -5962,27 +5978,27 @@
       "stl": "editions/cyber/exports/stl/Cyber_ToeCap_R.stl",
       "reference": false,
       "provisional": false,
-      "volume_mm3": 2152.166137764044,
+      "volume_mm3": 2217.056485014958,
       "center_of_mass_mm": [
-        37.90528511623297,
-        -51.819640838847384,
-        25.916247366951044
+        37.857170326517995,
+        -51.8072245240995,
+        25.90694258539174
       ],
       "bounds_mm": [
         [
-          17.676415869278337,
-          -72.47102484618401,
-          16.749999899999974
+          17.67638080429427,
+          -72.47102484618402,
+          16.749999899999985
         ],
         [
-          48.911638459261624,
-          -29.27384925758206,
-          29.206460061408862
+          48.91163845926172,
+          -29.27377463796487,
+          29.206469113244058
         ]
       ],
-      "facets": 2304,
-      "source_sha256": "a915baad79a3bad06d1fd5f56899a88634a9b3a8f7929eaf6ad0f4932719f79e",
-      "source_commit": "249f104fcbf80c1ebf722953578b139771fdf575"
+      "facets": 1196,
+      "source_sha256": "f9f347b029a934a567e7bd0e08f315aea73848b37ce2569a77ad41abb897b061",
+      "source_commit": "2f948aef73cfd1bf3904eacfa3b9002a70de8714"
     }
   ],
   "limitations": "Visualization tessellation, not print meshes. Hardware envelopes and dimensions provisional; no physical assembly validation. See THIRD_PARTY_NOTICES.md."

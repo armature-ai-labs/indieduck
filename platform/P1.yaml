@@ -16,6 +16,7 @@ mechanism:
   printed_parts: 27, listed in indieduck-cad COMPONENTS.csv with scope = platform; exports in platform/exports/
   bearings: 5 x 16x22x4 thin-section (hip roll, hip pitch, jaw), 1 x 693 (neck)
   actuator_model: JoyandAI HD-1910 BAM m1, 5.0 V
+  cover_fixings: M2 x 8 self-tapping screws into printed posts on the platform parts (5.5 mm posts, 1.7 mm pilot)
   status: CAD verified (every joint swept in 1 degree steps); not yet built
 
 electronics:

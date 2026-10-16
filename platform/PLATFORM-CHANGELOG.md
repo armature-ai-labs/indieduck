@@ -25,6 +25,6 @@ All four repositories are tagged for each platform release (`platform-P1.0`, ...
 
 ### P1.0-preview (15 October 2026)
 
-The first platform: 15 Feetech HD-1910 servos on the R20 joint chain with the R17/R18 supports and a redrawn head base; Radxa Zero 3W with the Pollen Robot HAT rev D1; body and head IMUs, one camera, a depth sensor and a microphone. Joint ranges verified in CAD with the Cyber Edition exterior fitted. Edition: IndieDuck Cyber Edition. Details: [P1.yaml](P1.yaml).
+The first platform: 15 Feetech HD-1910 servos on the R20 joint chain with the R17/R18 supports and a redrawn head base; Radxa Zero 3W with the Pollen Robot HAT rev D1; body and head IMUs, one camera, a depth sensor and a microphone. Joint ranges verified in CAD with the Cyber Edition exterior fitted. Cover mounting posts (M2 self-tapping) added to the trunk, head base, camera carrier, jaw bearing tower, hip brackets, thighs and shanks during the preview. Edition: IndieDuck Cyber Edition. Details: [P1.yaml](P1.yaml).
 
-To become P1.0: build and bench-test the first robot; size the 5 V servo supply; test the Radxa power arrangement with the HAT; settle the servo chain wiring (decision D20); design the cover fixings.
+To become P1.0: build and bench-test the first robot; size the 5 V servo supply; test the Radxa power arrangement with the HAT; settle the servo chain wiring (decision D20); and confirm the cover screw posts on the first print.
